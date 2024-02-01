@@ -1,0 +1,317 @@
+.modal1 {
+  height: fit-content;
+  max-height: 700px;
+  min-height: 620px;
+}
+.modal2 {
+  height: 530px;
+}
+.modal3 {
+  height: 746px;
+}
+.card {
+  max-width: 353px;
+  height: 608px;
+  border-radius: 16px;
+  border: 1px solid #ede4de;
+  box-shadow: 8px 8px 0px 0px #0000000d;
+  background-color: #fff;
+}
+.imgContainer {
+  max-width: 353px;
+  max-height: 260px;
+  img {
+    border-radius: 16px;
+    width: 353px;
+    height: 260px;
+  }
+}
+.cardBody {
+  padding-top: 32px;
+  margin-bottom: 8px;
+  margin-right: 32px;
+  margin-left: 32px;
+  height: 300px;
+}
+.cardTitle {
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  max-width: 273px;
+  margin-bottom: 8px;
+}
+.cardText {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151515;
+}
+
+.modalTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+.contentWrapper {
+  display: flex;
+}
+.leftSide {
+}
+.leftSideSecond {
+  max-width: 534px;
+  margin-right: 62px;
+}
+.leftSideTitle {
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+  max-width: 568px;
+}
+.leftSideTitleSecond {
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+  max-width: 515px;
+}
+.leftSideText {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  li {
+    margin-left: 10px;
+  }
+}
+.enquireNow,
+.enquireNow:visited {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 10px;
+  color: #151515;
+}
+.leftSideTextAdditional {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+}
+.rightSide {
+  max-width: 484px;
+  max-height: 320px;
+  img {
+    width: 484px;
+    height: 320px;
+    border-radius: 16px;
+  }
+}
+.leftSideWrapper {
+  max-width: 562px;
+  margin-right: 40px;
+}
+.imgCont {
+  max-width: 568px;
+  max-height: 320px;
+  margin-bottom: 24px;
+  img {
+    width: 568px;
+    height: 320px;
+    border-radius: 16px;
+  }
+}
+.leftSideHeader {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
+}
+.textWrapper {
+  height: 234px;
+  overflow: auto;
+}
+.leftSideContent {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 568px;
+}
+.rightSideWrapper {
+  max-width: 473px;
+  padding: 16px 15px;
+}
+
+.donateNowBtn {
+  width: 433px;
+  height: 54px;
+  color: #fff;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+.donateNowBtnWhite {
+  width: 433px;
+  height: 54px;
+  background: #fff;
+  color: #ba291c;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+}
+.serviceContainer {
+  margin-top: 44px;
+}
+
+@media (max-width: 1180px) {
+  .leftSideWrapper {
+    max-width: 450px;
+    margin-right: 20px;
+  }
+  .imgCont {
+    max-width: 320px;
+    margin-bottom: 24px;
+    img {
+      width: 320px;
+      height: 100%;
+    }
+  }
+  .donateNowBtn,
+  .donateNowBtnWhite {
+    width: 350px;
+  }
+  //
+  .contentWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .rightSide {
+    max-width: 326px;
+    max-height: 184px;
+    margin-bottom: 12px;
+    img {
+      width: 100%;
+      height: 184px;
+    }
+  }
+  .leftSideSecond {
+    max-width: 326px;
+    margin-right: 0px;
+  }
+  .leftSide {
+    max-width: 328px;
+  }
+
+  .leftSideTitle {
+    max-width: 328px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .leftSideTitleSecond {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 326px;
+  }
+  .leftSideText {
+    font-size: 14px;
+    line-height: 22px;
+    li {
+      margin-left: 10px;
+    }
+  }
+  .responsiveWrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 860px) {
+  .card {
+    max-width: 305px;
+    height: 470px;
+  }
+  .cardTitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cardText,
+  .enquireNow {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .imgContainer {
+    max-width: 300px;
+    max-height: 230px;
+    img {
+      border-radius: 16px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .cardBody {
+    padding-top: 16px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 205px;
+  }
+  .modalTitle {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    max-width: 296px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  // .contentWrapper {
+  //   display: flex;
+  //   flex-direction: column-reverse;
+  // }
+  // .rightSide {
+  //   max-width: 326px;
+  //   max-height: 184px;
+  //   margin-bottom: 12px;
+  //   img {
+  //     width: 100%;
+  //     height: 184px;
+  //   }
+  // }
+  // .leftSideSecond {
+  //   max-width: 326px;
+  //   margin-right: 0px;
+  // }
+  // .leftSide {
+  //   max-width: 328px;
+  // }
+
+  // .leftSideTitle {
+  //   max-width: 328px;
+  //   margin-bottom: 12px;
+  //   font-size: 16px;
+  //   line-height: 22px;
+  // }
+  // .leftSideTitleSecond {
+  //   margin-bottom: 12px;
+  //   font-size: 16px;
+  //   line-height: 22px;
+  //   max-width: 326px;
+  // }
+  // .leftSideText {
+  //   font-size: 14px;
+  //   line-height: 22px;
+  //   li {
+  //     margin-left: 10px;
+  //   }
+  // }
+}

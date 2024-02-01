@@ -1,0 +1,358 @@
+.main {
+  max-width: 1440px;
+  background: #fef9f9;
+  padding: 68px 16px 58px 16px;
+  position: relative;
+  height: 709px;
+}
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.mapContainer {
+  max-width: 306px;
+  max-height: 482px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 24px;
+  position: absolute;
+  z-index: 10;
+  top: 117px;
+  left: 135px;
+  box-shadow: 0px 0px 40px 0px #0000000d;
+}
+.contactUsMapTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+}
+.contactList {
+  max-width: 258px;
+  margin-bottom: 24px;
+}
+.contactItem {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+  }
+  a,
+  a:visited {
+    color: #151515;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.contactItemText {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.map {
+  width: 260px;
+  height: 180px;
+  border: none;
+  border-radius: 6px;
+}
+.formContainer {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px 0px #0000000d;
+  max-width: 1012px;
+  max-height: 583px;
+  border-radius: 16px;
+  padding: 40px 24px 40px 216px;
+  position: absolute;
+  top: 68px;
+  right: 140px;
+  z-index: 9;
+}
+.container {
+  max-width: 772px;
+}
+.nameWrapper {
+  display: flex;
+  column-gap: 24px;
+  margin-bottom: 24px;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  textarea {
+    width: 772px;
+    height: 159px;
+    border-radius: 16px;
+    border: 1px solid #cecece;
+    outline: #cecece;
+    padding: 10px;
+    resize: none;
+  }
+}
+.label {
+  display: block;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.input {
+  width: 374px;
+  height: 52px;
+  border-radius: 90px;
+  border: 1px solid #cecece;
+  outline: #cecece;
+  padding-left: 10px;
+}
+
+.inputName {
+  width: 374px;
+  height: 52px;
+}
+
+.helperText {
+  color: #d32f2f;
+  font-size: 12px;
+}
+.phoneLink, .phoneLink:visited{
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.waveContainer {
+  position: absolute;
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  right: 20px;
+  top: 101px;
+  z-index: 10;
+  img {
+    width: 118px;
+    height: 15px;
+  }
+}
+.doodleContainer {
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 377px;
+  max-width: 120px;
+  z-index: 10;
+  img {
+    width: 100%;
+    height: 120px;
+  }
+}
+.btnSend {
+  margin-top: 24px;
+  width: 374px;
+  height: 54px;
+  border: 1px solid #ba291c;
+  background: #ba291c;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.videoSection {
+  max-width: 1440px;
+  padding: 72px 140px 71px 140px;
+}
+.videoHeader {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.videoCardsWrapper {
+  display: flex;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+.ellipseContainer {
+  position: absolute;
+  right: 0px;
+  bottom: 155px;
+  img {
+    width: 103px;
+    height: 103px;
+  }
+}
+.ellipseContainer2 {
+  position: absolute;
+  right: 0px;
+  bottom: 103px;
+  z-index: 10;
+  img {
+    width: 103px;
+    height: 103px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .main {
+    max-width: 100%;
+    padding: 50px 16px;
+    position: relative;
+    height: 1200px;
+  }
+  .mapContainer {
+    max-width: 358px;
+    width: 358px;
+    max-height: 480px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 24px;
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0px 0px 40px 0px #0000000d;
+  }
+  .map {
+    width: 310px;
+    height: 180px;
+    border: none;
+    border-radius: 6px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .formContainer {
+    max-width: 1012px;
+    max-height: 583px;
+    border-radius: 16px;
+    padding: 40px 24px;
+    position: absolute;
+    top: 570px;
+    right: 20%;
+    z-index: 9;
+  }
+}
+
+@media (max-width: 1060px) {
+  .mapContainer {
+    max-width: 358px;
+    width: 358px;
+    max-height: 480px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 24px;
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 16px;
+    transform: none;
+    box-shadow: 0px 0px 40px 0px #0000000d;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+  }
+  .formContainer {
+    max-width: 1012px;
+    max-height: 583px;
+    border-radius: 16px;
+    padding: 40px 24px;
+    position: absolute;
+    top: 570px;
+    left: 16px;
+    z-index: 9;
+  }
+  .itemContainer {
+    display: flex;
+    flex-direction: column;
+    textarea {
+      width: 645px;
+      height: 159px;
+      border-radius: 16px;
+      border: 1px solid #cecece;
+      outline: #cecece;
+      padding: 10px;
+      resize: none;
+    }
+  }
+  .label {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .input {
+    width: 310px;
+    height: 32px;
+  }
+
+  .inputName {
+    width: 374px;
+    height: 52px;
+  }
+}
+@media (max-width: 890px) {
+  .main {
+    height: 1270px;
+  }
+  .contactUsMapTitle {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .formContainer {
+    max-width: 358px;
+    width: 358px;
+    max-height: 679px;
+  }
+  .itemContainer {
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    textarea {
+      width: 310px;
+      height: 159px;
+      border-radius: 16px;
+      border: 1px solid #cecece;
+      outline: #cecece;
+      padding: 10px;
+      resize: none;
+    }
+  }
+  .nameWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .btnSend {
+    width: 310px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .doodleContainer {
+    position: absolute;
+    left: -15px;
+    top: 515px;
+    max-width: 62px;
+    z-index: 10;
+    img {
+      width: 62px;
+      height: 62px;
+    }
+  }
+}

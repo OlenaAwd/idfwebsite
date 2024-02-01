@@ -1,0 +1,35 @@
+.button {
+  text-transform: capitalize;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  &.red {
+    background-color: #ba291c;
+    &:hover {
+      background: #f8f8f8;
+      color: #ba291c;
+    }
+  }
+
+  &.white {
+    // background-color: #f8f8f8;
+    &:hover {
+      color: #ffffff;
+      background: #ba291c;
+    }
+  }
+
+  // &.disabled {
+  //   cursor: pointer;
+  //   background-color: rgb(184, 183, 183);
+  //   border: 1px solid rgb(184, 183, 183);
+  //   justify-content: space-between;
+  //   &:hover {
+  //     background-color: rgb(184, 183, 183);
+  //   }
+  // }
+}

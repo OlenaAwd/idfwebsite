@@ -1,0 +1,251 @@
+.modalBackdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  max-width: 568px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  max-width: 750px;
+  margin-bottom: 24px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mobStyles {
+  display: none;
+}
+.imgContainer {
+  max-width: 568px;
+  margin-bottom: 24px;
+  img {
+    width: 100%;
+  }
+}
+.textContainer {
+  height: 234px;
+  overflow: auto;
+}
+.charitySignContainer {
+  display: flex;
+  justify-content: right;
+  max-height: 100px;
+  img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+  }
+}
+.text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 568px;
+}
+.leftContainer {
+  max-width: 473px;
+  border: 1px solid #e9e9e9;
+  border-radius: 24px;
+  padding: 16px 20px 0px 20px;
+}
+
+.donateBtnContainer {
+  display: flex;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+
+.redBtn {
+  background: #ba291c;
+  color: #fff;
+  margin-right: 12px;
+  width: 204px;
+  height: 54px;
+  border-radius: 40px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  &:hover {
+    background-color: #fff;
+    color: #ba291c;
+    border: 1px solid #ba291c;
+  }
+}
+
+.whiteBtn {
+  background-color: #fff;
+  color: #ba291c;
+  border: 1px solid #ba291c;
+  width: 204px;
+  height: 54px;
+  border-radius: 40px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  &:hover {
+    background: #ba291c;
+    color: #fff;
+  }
+}
+
+.btnSumm {
+  width: 128px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid #ba291c;
+  background-color: #fff;
+  color: #ba291c;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.btnSumm2 {
+  width: 128px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid #ba291c;
+  background-color: #ba291c;
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.clicked {
+  background-color: rgb(88, 92, 92);
+  width: 128px;
+  height: 54px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.clickedPeriod {
+  background-color: rgb(88, 92, 92);
+  width: 204px;
+  height: 54px;
+  border-radius: 40px;
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.otherInput {
+  width: 433px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  padding-left: 12px;
+  margin-bottom: 149px;
+  outline: none;
+}
+
+.donateNowBtn {
+  width: 433px;
+  height: 54px;
+  color: #fff;
+  // margin-bottom: 24px;
+  border: 1px solid #ba291c;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.donateNowBtnWhite {
+  width: 433px;
+  height: 54px;
+  background: #fff;
+  color: #ba291c;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.callTeam {
+  width: 433px;
+  height: 54px;
+  color: #ba291c;
+  border: 1px solid #ba291c;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.donateContainer {
+  // margin-top: 79px;
+  // margin-top: 110px;
+}
+
+@media (max-width: 1190px) {
+  .container {
+    display: none;
+  }
+  .mobStyles {
+    display: block;
+  }
+  .title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    max-width: 100%;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 326px;
+  }
+  .leftContainer {
+    max-width: 326px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .redBtn,
+  .whiteBtn,
+  .btnSumm,
+  .btnSumm2 {
+    height: 42px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .otherInput {
+    height: 42px;
+    margin-bottom: 70px;
+  }
+
+  .donateNowBtnWhite,
+  .donateNowBtn,
+  .callTeam {
+    width: 290px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

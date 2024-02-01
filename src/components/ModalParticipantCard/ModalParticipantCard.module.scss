@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  margin-top: 30px;
+}
+.container {
+  height: 350px;
+  overflow: auto;
+  max-width: 580px;
+}
+.imgContainer {
+  max-width: 568px;
+  width: 100%;
+  margin-left: 20px;
+  img {
+    width: 100%;
+  }
+}
+.btn {
+  display: flex;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.modalHeader {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+}
+.modalHeaderAdditional {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 20px;
+  color: #ba291c;
+}
+.modalTitle {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.modalTitleSles {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ba291c;
+}
+.modalText {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media (max-width: 1120px) {
+  .wrapper {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    max-width: 600px;
+  }
+  .container {
+    max-width: 590px;
+  }
+  .imgContainer {
+    margin-left: 0px;
+  }
+}

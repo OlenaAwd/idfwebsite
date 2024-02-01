@@ -1,0 +1,772 @@
+main {
+}
+.shopServicesSection {
+  padding: 60px 140px 72px 140px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  background: #f8f8f8;
+  justify-content: left;
+  flex-direction: column;
+  position: relative;
+}
+
+.searchItem,
+.searchItem:visited {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ba291c;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+  letter-spacing: 0.02em;
+  &:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 865px;
+  margin-bottom: 76px;
+}
+.aboutUsHeader {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  max-width: 460px;
+}
+.aboutUsDescription {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.ourMissionContainer {
+  display: flex;
+  align-items: center;
+}
+.missionTextContainer {
+  max-width: 584px;
+  margin-right: 42px;
+}
+
+.missionDescription {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 584px;
+}
+.missionImgContainer {
+  max-width: 534px;
+  max-height: 418px;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+}
+.waveContainer {
+  overflow: hidden;
+  position: absolute;
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  top: 110px;
+  z-index: 10;
+  img {
+    width: 118px;
+    height: 15px;
+  }
+}
+.doodleContainer {
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  bottom: 144px;
+  max-width: 120px;
+  z-index: 10;
+  img {
+    width: 100%;
+    height: 120px;
+  }
+}
+.btnLearn {
+  width: 320px;
+  height: 54px;
+  color: #ffffff;
+  border: 1px solid #ba291c;
+  margin-right: 20px;
+  padding: 16px 6px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.btnLearnResponsive {
+  display: none;
+}
+.abilitiesSection {
+  background-color: #fff;
+  max-width: 1440px;
+  position: relative;
+  padding: 80px 140px;
+  align-items: center;
+}
+.textContainer {
+  max-width: 507px;
+  margin-left: 83px;
+  max-height: 507px;
+}
+.textTitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 24px;
+  letter-spacing: 0.02em;
+}
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.diversifiedSection {
+  background-color: #f8f8f8;
+  max-width: 1440px;
+  padding: 60px 140px 112px 140px;
+}
+.diversifiedTitle {
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.diversifiedText {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.diversifiedSliderContainer {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+//remove if back multiple slider
+.diversifiedSliderContainerNew {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.lastThoughts {
+  margin-top: 80px;
+  text-align: left;
+  span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.wrapperCard {
+  margin-top: 10px;
+  position: relative;
+  max-width: 373px;
+  width: 100%;
+  height: 100%;
+  max-height: 190px;
+  img {
+    width: 100%;
+    height: 190px;
+    border-radius: 8px;
+  }
+}
+
+.imgTextContainer {
+  bottom: 10px;
+  background-color: #fff;
+  padding: 6px 16px;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  border-radius: 40px;
+  max-width: 100%;
+  p {
+    width: fit-content;
+    overflow: visible;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    height: 26px;
+  }
+}
+
+.sliderCardServices:hover {
+  transform: scale(1);
+  cursor: pointer;
+}
+.cardTextHoverHide {
+  display: none;
+}
+.cardTextHoverShow {
+  width: 373px;
+  height: 190px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  // background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.952);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+
+  span {
+    align-items: center;
+    display: flex;
+    max-width: 450px;
+    padding: 5px 10px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+  }
+}
+
+.shopEnterpriseSection {
+  max-width: 1440px;
+  padding: 60px 140px 79px 140px;
+  position: relative;
+}
+.shopEnterpriseTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.ellipseContainer {
+  position: absolute;
+  right: 0px;
+  bottom: 180px;
+  img {
+    width: 103px;
+    height: 103px;
+  }
+}
+.ellipseContainer2 {
+  position: absolute;
+  right: 0px;
+  bottom: 128px;
+  z-index: 10;
+  img {
+    width: 103px;
+    height: 103px;
+  }
+}
+.advocacySection {
+  padding: 60px 140px;
+  max-width: 1440px;
+  display: flex;
+  background: #f8f8f8;
+  justify-content: left;
+  flex-direction: column;
+}
+.advocacyTextContainer {
+  max-width: 616px;
+  margin-right: 43px;
+}
+.advocacyHeader {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+}
+.advocacyDescription {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.btnAdvocacyResponsive {
+  display: none;
+}
+
+.btnAdvocacy {
+  width: 472px;
+  height: 54px;
+  color: #ffffff;
+  border: 1px solid #ba291c;
+  margin-right: 20px;
+  padding: 16px 6px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.advocacyImgContainer {
+  max-width: 501px;
+  max-height: 390px;
+  img {
+    width: 501px;
+    height: 390px;
+    border-radius: 12px;
+  }
+}
+.subscribeSection {
+  padding: 60px 140px;
+  max-width: 1440px;
+  background-color: #fff;
+}
+.subscribeContainer {
+  display: flex;
+  column-gap: 20px;
+}
+.subscribeImgContainer {
+  max-width: 668px;
+  img {
+    width: 100%;
+  }
+}
+.form {
+  max-width: 472px;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid #ee3524;
+}
+.formTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.itemContainer {
+  max-width: 424px;
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+.subscribeInput {
+  width: 424px;
+  height: 59px;
+  border: 1px solid #cecece;
+  border-radius: 90px;
+  padding-left: 24px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #fff;
+  font-family: Kanit, sans-serif;
+
+  &:focus {
+    border: 1px solid #cecece;
+    outline: none !important;
+  }
+}
+.btnSubscribe {
+  width: 424px;
+  height: 54px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 20px;
+  border: 1px solid #ba291c;
+}
+.helperText {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1400px) {
+  .diversifiedSliderContainerNew {
+    max-width: 800px;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cardTextHoverShowFirst {
+    max-width: 373px;
+    width: 100%;
+    height: 196px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.952);
+
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    span {
+      align-items: center;
+      display: flex;
+      max-width: 450px;
+      padding: 2px 2px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: black;
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .ourMissionContainer {
+    flex-direction: column;
+    max-width: 534px;
+    align-items: center;
+  }
+  .advocacyTextContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .missionTextContainer {
+    max-width: 560px;
+  }
+  .missionDescription {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  .btnLearn {
+    display: none;
+  }
+  .btnAdvocacy {
+    display: none;
+  }
+
+  .btnLearnResponsive {
+    width: 320px;
+    height: 54px;
+    color: #ffffff;
+    border: 1px solid #ba291c;
+    margin-right: 20px;
+    padding: 16px 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .btnAdvocacyResponsive {
+    width: 472px;
+    height: 54px;
+    color: #ffffff;
+    border: 1px solid #ba291c;
+    margin-right: 20px;
+    padding: 16px 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+  }
+  .textContainer {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .subscribeContainer {
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .form {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .subscribeImgContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 860px) {
+  .diversifiedSliderContainerNew {
+    display: none;
+  }
+  .shopServicesSection {
+    padding: 30px 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .aboutUsContainer {
+    display: flex;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .ourMissionContainer {
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .aboutUsHeader {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 34px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .aboutUsDescription,
+  .missionDescription,
+  .diversifiedText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .waveContainer {
+    position: absolute;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    top: 35px;
+    z-index: 10;
+    img {
+      width: 118px;
+      height: 15px;
+    }
+  }
+  .btnLearnResponsive {
+    width: 358px;
+    height: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+  }
+  .doodleContainer {
+    position: absolute;
+    left: 0px;
+    bottom: -33px;
+    max-width: 62px;
+    z-index: 10;
+    img {
+      width: 62px;
+      height: 62px;
+    }
+  }
+  .textContainer {
+    max-width: 523px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .textTitle {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+  .abilitiesSection {
+    padding: 50px 0px;
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 560px;
+  }
+  .diversifiedSection {
+    padding: 50px 16px;
+  }
+  .diversifiedTitle {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .shopEnterpriseSection {
+    padding: 50px 0px;
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 580px;
+  }
+  .shopEnterpriseTitle {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .ellipseContainer {
+    position: absolute;
+    right: -8px;
+    bottom: -25px;
+    img {
+      width: 49px;
+      height: 50px;
+    }
+  }
+  .ellipseContainer2 {
+    position: absolute;
+    right: -8px;
+    bottom: -50px;
+    z-index: 10;
+    img {
+      width: 49px;
+      height: 50px;
+    }
+  }
+  .advocacyHeader {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+  }
+  .advocacyDescription {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .advocacySection {
+    padding: 50px 16px;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .advocacyImgContainer {
+    max-width: 358px;
+    max-height: 244px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .btnAdvocacyResponsive {
+    max-width: 358px;
+    height: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+  }
+  .subscribeSection {
+    padding: 60px 0px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .subscribeContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 580px;
+  }
+  .formTitle {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 358px;
+  }
+  .btnSubscribe {
+    font-size: 16px;
+  }
+  .subscribeInput {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .sliderCardServices {
+    max-width: 171px;
+    img {
+      width: 171px;
+      height: 171px;
+    }
+  }
+  .imgTextContainer {
+    bottom: 10px;
+    background-color: #fff;
+    padding: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    border-radius: 40px;
+    max-width: 100%;
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      height: 22px;
+    }
+  }
+  .lastThoughts {
+    margin-top: 50px;
+    span,
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .abilitiesImgContainer {
+    max-width: 358px;
+    max-height: 310px;
+    img {
+      width: 358px;
+      height: 310px;
+    }
+  }
+}
+@media (max-width: 580px) {
+  .missionImgContainer {
+    max-width: 358px;
+    max-height: 244px;
+    img {
+      width: 358px;
+      height: 244px;
+    }
+  }
+  .btnSubscribe,
+  .subscribeInput {
+    width: 310px;
+  }
+}
+@media (max-width: 420px) {
+  .form {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}

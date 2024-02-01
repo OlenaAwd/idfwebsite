@@ -1,0 +1,204 @@
+.footerContainer {
+  background: #ba291c;
+  display: flex;
+  padding: 40px 120px 73px 140px;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 262px;
+  margin-right: 160px;
+}
+.logoUp {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+  img {
+    width: 94px;
+    height: 101px;
+    margin-bottom: 11px;
+  }
+  .logoText {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+.logoLow {
+  max-width: 152px;
+  margin-bottom: 45px;
+
+  .logoTextDown {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  img {
+    width: 143px;
+    height: 148px;
+  }
+}
+.infoWrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  color: #fff;
+  max-width: 738px;
+}
+
+.linksContainer {
+  width: 177px;
+}
+
+.contactContainer {
+  width: 251px;
+}
+.linksTitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.servingAll {
+  max-width: 250px;
+  text-align: left;
+}
+.contactItem {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+  }
+  a,
+  a:visited {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.servingContainer {
+  width: 251px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+@media (max-width: 1300px) {
+  .logoWrapper {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .footerContainer {
+    background: #ba291c;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 59.5px 60px 59.5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .logoWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 262px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .logoUp {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    img {
+      width: 94px;
+      height: 101px;
+      margin-bottom: 24px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .logoLow {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .infoWrapper {
+    flex-direction: column;
+    row-gap: 40px;
+    color: #fff;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 358px;
+  }
+  .linksContainer {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .servingContainer {
+    text-align: center;
+  }
+  .linksTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .listLink {
+    justify-content: center;
+    text-align: center;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contactContainer {
+    width: 251px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .contactItem {
+    justify-content: center;
+  }
+}
+@media (max-width: 860px) {
+  .footerContainer {
+    background: #ba291c;
+    display: flex;
+    padding: 24px 16px 60px 16px;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

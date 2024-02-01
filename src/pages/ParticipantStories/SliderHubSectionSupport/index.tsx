@@ -1,0 +1,82 @@
+import { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Slider from 'react-slick';
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import styles from './SliderHubSectionSupport.module.scss';
+import { ICareerCard } from '../../../types/cardType';
+import DOMPurify from 'dompurify';
+import LazyImgComponent from '../../../components/LazyImgComponent';
+
+interface CardSliderProps {
+  cards: ICareerCard[] ;
+}
+
+const SliderHubSectionSupport: FC<CardSliderProps> = ({ cards }) => {
+  const navigate = useNavigate();
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows:false,
+    // centerMode: true,
+
+    responsive: [
+      {
+        breakpoint: 1320,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+  const sanitizer = DOMPurify.sanitize;
+  return (
+    <Slider {...settings} className={styles.sliderContainer}>
+    
+      {cards.map(card => (
+              <div className={styles.cardOpportunities} key={card.id}>
+                <div className={styles.cardImgOpportunities}>
+                  <LazyImgComponent src={card.img} alt="card" />
+                </div>
+                <h6 className={styles.cardOpportunitiesTitle}>{card.title}</h6>
+                <div className={styles.opportunitiesBody}>
+                  <p
+                    className={styles.cardOpportunitiesText}
+                    dangerouslySetInnerHTML={{ __html: sanitizer(card.description) }}
+                  />
+                  {/* {card.text2 !== undefined && (
+                    <p
+                      className={styles.cardOpportunitiesText2}
+                      dangerouslySetInnerHTML={{
+                        __html: sanitizer(card.text2),
+                      }}
+                    />
+                  )} */}
+                </div>
+                <p
+                  className={styles.learnOpportunities}
+                  onClick={() => {
+                    navigate(`${card.link}`);
+                  }}
+                >
+                  Learn More
+                </p>
+              </div>
+      ))}
+    </Slider>
+  );
+};
+
+export default SliderHubSectionSupport;

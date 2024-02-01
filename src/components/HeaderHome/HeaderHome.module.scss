@@ -1,0 +1,594 @@
+header {
+  color: #151515;
+}
+.appBar {
+  max-width: 1440px;
+  height: 130px;
+  padding-top: 16px;
+  background: #f8f8f8;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+}
+.appBarHamper{
+  max-width: 1440px;
+  height: 130px;
+  padding-top: 16px;
+  background: #f8f8f8;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  box-shadow: 0px 4px 40px 0px #00000014;
+
+}
+.appBarContacts {
+  max-width: 1440px;
+  height: 130px;
+  padding-top: 16px;
+  background: #fef9f9;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+}
+.appBarLinksPages {
+  background: #fff;
+  max-width: 1440px;
+  height: 130px;
+  padding-top: 16px;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+}
+.appBarLinksPagesWithoutSiteBar {
+  background: #fff;
+  max-width: 1440px;
+  height: 81px;
+  padding-top: 16px;
+  top: 0;
+  position: sticky;
+  z-index: 100;
+}
+
+.border {
+  margin-top: 16px;
+  max-width: 1440px;
+  width: 100%;
+  border-top: 1px solid #0000004d;
+}
+.blogPage {
+  box-shadow: 0px 4px 40px 0px #00000014;
+}
+.toolbar {
+  display: flex;
+  height: 48px;
+  max-width: 1160px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 140px;
+  margin-left: 140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.typographyDesktopHomeStyles {
+  max-width: 299px;
+  display: flex;
+  align-items: center;
+}
+.logoContainer {
+  max-width: 42px;
+  max-height: 45px;
+  margin-right: 12px;
+  img {
+    width: 42px;
+    height: 45px;
+  }
+}
+
+.textContainer {
+  max-width: 243px;
+  font-size: 16px;
+  line-height: 23.92px;
+  color: #151515;
+
+  text-align: left;
+}
+
+.logoText {
+  font-weight: 500;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.logoSubText {
+  font-weight: 300;
+}
+.navbarItem {
+  justify-content: center;
+  align-items: center;
+  // padding-top: 6px;
+  color: #151515;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  &:hover {
+    color: #ba291c;
+  }
+  &.active {
+    color: inherit;
+  }
+}
+.navbarItem:not(:last-child) {
+  margin-right: 24px;
+}
+.donate {
+  width: 84px;
+  height: 36px;
+  color: #ffffff;
+  border: 1px solid #ba291c;
+  // margin-right: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #ba291c;
+  border-radius: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+ .link{
+    color: #ffffff;
+  }
+  &:hover{
+    text-decoration: none;
+  }
+  
+}
+.contactUs {
+  width: 110px;
+  height: 36px;
+  color: #ba291c;
+  border: 1px solid #ba291c;
+  margin-right: 20px;
+  background-color: #f8f8f8;
+}
+.contactUsLinksPages {
+  width: 110px;
+  height: 36px;
+  color: #ba291c;
+  border: 1px solid #ba291c;
+  margin-right: 20px;
+  background-color: #fff;
+}
+
+.contactUsPage {
+  width: 110px;
+  height: 36px;
+  color: #ba291c;
+  border: 1px solid #ba291c;
+  margin-right: 20px;
+  background-color: #fef9f9;
+}
+
+.searchContainer {
+  position: relative;
+  background: #f8f8f8;
+}
+.searchContainerAdditional {
+  position: relative;
+  background: #f8f8f8;
+  margin-top: 23px;
+}
+.searchContainerContacts {
+  position: relative;
+  background: #fef9f9;
+}
+.searchContainerLinksPages {
+  position: relative;
+  background: #fff;
+}
+
+.inputSearch {
+  width: 180px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 90px;
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #cecece;
+  color: #898989;
+  background-color: #f8f8f8;
+  z-index: 11;
+}
+.inputSearchFocused {
+  width: 665px;
+  height: 46px;
+  border-radius: 90px;
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #f8f8f8;
+  &:focus {
+    border: 1px solid #cecece;
+    outline: none !important;
+  }
+}
+.inputSearchContact {
+  width: 180px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 90px;
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #cecece;
+  color: #898989;
+  background-color: #fef9f9;
+  z-index: 11;
+}
+.inputSearchFocusedContact {
+  background-color: #fef9f9;
+}
+.inputSearchFocusedLinksPages {
+  background-color: #fff;
+}
+.inputSearchLinksPages {
+  width: 180px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 90px;
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #cecece;
+  color: #898989;
+  background-color: #fff;
+  z-index: 11;
+}
+.searchDropdown {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background:#f8f8f8;
+  position: absolute;
+  z-index: 10;
+  min-height:0px;
+  height:fit-content;
+  padding-left: 16px;
+  padding-right: 16px;
+  overflow:auto;
+}
+
+
+.dropdownItem,
+a, a:visited {
+  cursor: pointer;
+  color: #151515;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.leftSideContainer {
+  display: flex;
+  padding-top: 10px;
+  height: 40px;
+  img {
+    width: 38px;
+    height: 40px;
+  }
+}
+.rightSideContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputMobile {
+  border: none;
+  width: 40px;
+}
+.burgerMenuContainer {
+  max-width: 30px;
+  max-height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 16px;
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.donateBtnContainer {
+  display: flex;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+
+.redBtn {
+  background: #ba291c;
+  color: #fff;
+  margin-right: 12px;
+  width: 204px;
+  height: 54px;
+  border-radius: 40px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  &:hover {
+    background-color: #fff;
+    color: #ba291c;
+    border: 1px solid #ba291c;
+  }
+}
+
+.whiteBtn {
+  background-color: #fff;
+  color: #ba291c;
+  border: 1px solid #ba291c;
+  width: 204px;
+  height: 54px;
+  border-radius: 40px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  &:hover {
+    background: #ba291c;
+    color: #fff;
+  }
+}
+
+.btnSumm {
+  width: 128px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid #ba291c;
+  background-color: #fff;
+  color: #ba291c;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+.btnSumm2 {
+  width: 128px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid #ba291c;
+  background-color: #ba291c;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.clicked {
+  background-color: rgb(88, 92, 92);
+  width: 128px;
+  height: 54px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+.clickedPeriod {
+  background-color: rgb(88, 92, 92);
+  width: 204px;
+  height: 54px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.otherInput {
+  width: 433px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  padding-left: 12px;
+  margin-bottom: 149px;
+}
+
+.donateNowBtn {
+  width: 433px;
+  height: 54px;
+  color: #fff;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+.donateNowBtnWhite {
+  width: 433px;
+  height: 54px;
+  background: #fff;
+  color: #ba291c;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+}
+.callTeam {
+  width: 433px;
+  height: 54px;
+  color: #ba291c;
+  border: 1px solid #ba291c;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+.donateContainer {
+  margin-top: 70px;
+}
+.searchListWrapper {
+  max-width: 1440px;
+  background-color: #f8f8f8;
+  border-radius: 0px 0px 12px 12px;
+  height: fit-content;
+}
+.searchListWrapperContact {
+  max-width: 1440px;
+  background-color: #fef9f9;
+  border-radius: 0px 0px 12px 12px;
+  height: fit-content;
+}
+.searchListWrapperAdvocacy {
+  max-width: 1440px;
+  background-color: #fff;
+  border-radius: 0px 0px 12px 12px;
+  height: fit-content;
+}
+.searchList {
+  display: flex;
+  justify-content: left;
+  max-width: 1160px;
+  background-color: #f8f8f8;
+  margin-bottom: 39px;
+  border-radius: 0px 0px 12px 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.searchListMargin {
+  display: flex;
+  justify-content: left;
+  max-width: 1160px;
+  background-color: #f8f8f8;
+  margin-top: 40px;
+  margin-bottom: 39px;
+  border-radius: 0px 0px 12px 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.searchListContacts {
+  display: flex;
+  justify-content: left;
+  max-width: 1160px;
+  background-color: #fef9f9;
+  margin-bottom: 39px;
+  border-radius: 0px 0px 12px 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.searchListLinksPage {
+  display: flex;
+  justify-content: left;
+  max-width: 1160px;
+  background-color: #fff;
+  margin-bottom: 39px;
+  border-radius: 0px 0px 12px 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hideContactUs {
+  display: none;
+}
+
+@media (max-width: 1330px) {
+  .inputSearchFocused {
+    width: 550px;
+  }
+}
+@media (max-width: 1300px) {
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1240px) {
+  .typographyDesktopHomeStyles {
+    display: none;
+  }
+  .contactUs {
+    height: 30px;
+  }
+  .appBar {
+    padding: 10px 0px;
+  }
+  .searchList {
+    display: flex;
+    justify-content: left;
+    max-width: 1160px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 16px;
+  }
+  .searchListWrapper,
+  .searchContainerContacts,
+  .searchListWrapperAdvocacy {
+    padding-left: 16px;
+  }
+  .toolbar {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .searchContainerAdditional {
+    margin-top: 0px;
+
+  }
+}
+@media (max-width: 1060px) {
+  .inputSearchFocused {
+    width: 350px;
+  }
+}
+
+@media (max-width: 960px) {
+  .logoText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 860px) {
+  .searchListWrapper,
+  .searchContainerContacts .searchListWrapperAdvocacy {
+    border-radius: 0px 0px 12px 12px;
+    height: fit-content;
+    -webkit-border-radius: 0px 0px 12px 12px;
+    -moz-border-radius: 0px 0px 12px 12px;
+    -ms-border-radius: 0px 0px 12px 12px;
+    -o-border-radius: 0px 0px 12px 12px;
+  }
+}
+
+@media (max-width: 620px) {
+  .inputSearchFocused {
+    width: 280px;
+  }
+}
+@media (max-width: 550px) {
+  .logoText {
+    display: none;
+  }
+  .inputSearchFocused {
+    width: 150px;
+  }
+  .searchList {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 410px) {
+  .inputSearchFocused {
+    width: 120px;
+  }
+}

@@ -1,0 +1,82 @@
+.sliderContainer {
+  display: none;
+}
+
+@media (max-width: 1180px) {
+  .sliderContainer {
+    max-width: 326px;
+    display: block;
+  }
+  .modalTitle {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 296px;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-top: 0px;
+  }
+  .card {
+    max-width: 326px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+  }
+  .cardSecond {
+    max-width: 326px;
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+  .imgContainer {
+    max-width: 326px;
+    max-height: 245px;
+    margin-bottom: 5px;
+    img {
+      width: 100%;
+      height: 245px;
+    }
+  }
+  .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+  }
+
+  .descr {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .linkContainer {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .serviceContainer {
+    margin-top: 30px;
+  }
+  .donateNowBtn {
+    width: 290px;
+    height: 46px;
+    color: #fff;
+    margin-bottom: 24px;
+    border: 1px solid #ba291c;
+  }
+
+  .donateNowBtnWhite {
+    width: 290px;
+    height: 46px;
+    background: #fff;
+    color: #ba291c;
+    margin-bottom: 24px;
+    border: 1px solid #ba291c;
+  }
+}
+
+@media (max-width: 860px) {
+  .sliderContainer {
+    margin-top: 20px;
+  }
+  .serviceContainer {
+    margin-top: 20px;
+  }
+}

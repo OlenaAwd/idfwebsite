@@ -1,0 +1,19 @@
+.sliderContainer {
+  max-width: 1180px;
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .sliderContainer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    display: block;
+  }
+}
+
+@media (max-width: 960px) {
+  .sliderContainer {
+    max-width: 320px;
+  }
+}

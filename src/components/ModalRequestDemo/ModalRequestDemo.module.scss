@@ -1,0 +1,96 @@
+.text {
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.btnRequestDemo {
+  width: 224px;
+  height: 54px;
+  color: #ffffff;
+  border: 1px solid #ba291c;
+  margin-right: 24px;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  &:hover{
+    background-color: #f8f8f8;
+    transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+}
+}
+
+.modalTitle {
+  color: #151515;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.itemContainer {
+  margin-bottom: 32px;
+}
+.label {
+  display: block;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.input {
+  width: 520px;
+  height: 59px;
+  border-radius: 90px;
+  border: 1px solid #cecece;
+  outline: #cecece;
+  padding-left: 10px;
+}
+.helperText {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+
+.btnContactMe {
+  width: 520px;
+  height: 54px;
+  color: #ffffff;
+  border: 1px solid #ba291c;
+  margin-right: 24px;
+  padding: 12px 24px;
+  font-size: 20px;
+}
+@media (max-width: 860px) {
+  .btnRequestDemo {
+    width: 358px;
+    height: 42px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 650px) {
+  .input {
+    width: 380px;
+  }
+  .btnContactMe {
+    width: 380px;
+  }
+}
+@media (max-width: 530px) {
+  .input {
+    width: 320px;
+  }
+  .btnContactMe {
+    width: 320px;
+  }
+}

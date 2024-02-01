@@ -1,0 +1,519 @@
+.shopServicesSection {
+  padding: 54px 140px 75px 140px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  background: #f8f8f8;
+  justify-content: left;
+  flex-direction: column;
+  position: relative;
+}
+
+.supportImgContainer {
+  max-width: 657px;
+  max-width: 450px;
+  img {
+    width: 657px;
+    height: 450px;
+  }
+}
+
+.container {
+  background-color: #fff;
+  max-width: 680px;
+  border-radius: 20px;
+  height: 338px;
+  padding: 32px;
+  position: absolute;
+  top: 155px;
+  left: 630px;
+
+  h1 {
+    max-width: 443px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    margin-bottom: 36px;
+  }
+}
+.chipsContainer {
+  row-gap: 16px;
+  column-gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 592px;
+}
+.card {
+  &:hover {
+    transform: translateY(0);
+  }
+}
+.thumb {
+  position: relative;
+  overflow: hidden;
+
+  // &:hover {
+  //   overflow: visible;
+  // }
+}
+.visibleThumb {
+  position: relative;
+  overflow: visible;
+}
+.visibleThumbOnly {
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    overflow: visible;
+  }
+}
+.chipItem {
+  width: 100%;
+  max-width: 232px;
+  min-width: 123px;
+  height: 62px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ba291c;
+  background-color: #fff;
+  border: 1px solid #ba291c;
+  cursor: pointer;
+  padding: 16px;
+  &:hover {
+    background-color: #ba291c;
+    transition: background-color 1s ease-out;
+    color: #fff;
+  }
+}
+.hoverContainer {
+  background-color: #151515;
+  color: #fff;
+  border-radius: 12px;
+  position: absolute;
+  top: -30px;
+  left: -60px;
+  width: 302px;
+  height: 280px;
+  transform: translateY(-100%);
+  padding: 10px 16px;
+  span {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.hoverContainerOnly {
+  background-color: #151515;
+  color: #fff;
+  border-radius: 12px;
+  position: absolute;
+  top: -30px;
+  left: -60px;
+  width: 283px;
+  height: fit-content;
+  transform: translateY(-100%);
+  padding: 10px 16px;
+  span {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+}
+.hoverContainerHide {
+  display: none;
+}
+.imgContainer {
+  position: absolute;
+  bottom: 70px;
+  left: 38%;
+}
+.imgContainerHide {
+  display: none;
+}
+.waveContainer {
+  overflow: hidden;
+  position: absolute;
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  top: 85px;
+  z-index: 10;
+  img {
+    width: 118px;
+    height: 15px;
+  }
+}
+.doodleContainer {
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  bottom: 94px;
+  max-width: 120px;
+  z-index: 10;
+  img {
+    width: 100%;
+    height: 120px;
+  }
+}
+.supportedEmployment {
+  padding: 80px 140px;
+  max-width: 1440px;
+}
+.textContainer {
+  max-width: 507px;
+  margin-left: 83px;
+  max-height: 507px;
+}
+.textTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+  max-width: 400px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  max-width: 423px;
+}
+.participantsWrapper {
+  max-width: 1160px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+  position: absolute;
+  left: 140px;
+}
+
+.participantTextContainer {
+  max-width: 527px;
+  margin-top: 93px;
+  color: #fff;
+}
+.participantTitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  margin-bottom: 36px;
+}
+.participantText {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  margin-bottom: 36px;
+}
+.participantImgContainer {
+  max-width: 570px;
+  max-height: 536px;
+  margin-left: 63px;
+  margin-top: 98px;
+
+  opacity: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+}
+.visibleImg {
+  opacity: 1;
+  transition-duration: 1.5s;
+}
+.findOutBtn {
+  width: 433px;
+  height: 54px;
+  color: #fff;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+  &:hover {
+    background-color: #fff;
+  }
+}
+.diversifiedSection {
+  background-color: #fff;
+  max-width: 1440px;
+  padding: 60px 140px;
+}
+.diversifiedTitle {
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.diversifiedText {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 761px;
+  margin-right: auto;
+  margin-left: auto;
+}
+// .sliderCardServices {
+// }
+.wrapperCard {
+  position: relative;
+  img {
+    width: 265px;
+    height: 190px;
+    border-radius: 8px;
+  }
+}
+
+.imgTextContainer {
+  bottom: 10px;
+  background-color: #fff;
+  padding: 6px 16px;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  border-radius: 40px;
+  max-width: 100%;
+  p {
+    width: fit-content;
+    overflow: visible;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    height: 26px;
+  }
+}
+
+.sliderCardServices:hover {
+  transform: scale(1);
+  // cursor: pointer;
+}
+.diversifiedSliderContainer {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.cardTextHoverHide {
+  display: none;
+}
+.cardTextHoverShow {
+  width: 265px;
+  height: 190px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  span {
+    max-width: 200px;
+    top: 60px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+@media (max-width: 1300px) {
+  .shopServicesSection {
+    height: 760px;
+  }
+  .container {
+    top: 363px;
+    left: 300px;
+  }
+  .textContainer {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .text {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 980px) {
+  .shopServicesSection {
+    height: 850px;
+    padding: 40px 16px;
+  }
+  .container {
+    top: 470px;
+    left: 100px;
+  }
+}
+
+@media (max-width: 860px) {
+  .shopServicesSection {
+    height: 700px;
+    padding: 40px 16px;
+  }
+  .supportedEmployment {
+    padding: 50px 0px;
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 560px;
+  }
+  .supportImgContainer {
+    max-width: 657px;
+    max-width: 450px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .container {
+    top: 320px;
+    left: 13px;
+    max-width: 455px;
+    padding: 30px 0px;
+    h1 {
+      max-width: 358px;
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+  }
+  .chipsContainer {
+    row-gap: 16px;
+    column-gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+  .doodleContainer {
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    max-width: 62px;
+    img {
+      width: 62;
+      height: 62px;
+    }
+  }
+  .textContainer {
+    max-width: 523px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0;
+  }
+
+  .textTitle {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+  .diversifiedSection {
+    padding: 50px 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .diversifiedTitle {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .diversifiedText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .waveContainer {
+    display: none;
+  }
+  .chipItem {
+    font-size: 16px;
+    height: 44px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 750px) {
+  .wrapperCard {
+    max-width: 171px;
+    position: relative;
+    img {
+      width: 171px;
+      height: 171px;
+    }
+  }
+  .cardTextHoverShow {
+    width: 171px;
+    height: 171px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    span {
+      max-width: 171px;
+      top: 35px;
+      left: 5px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  .imgTextContainer {
+    bottom: 10px;
+    background-color: #fff;
+    padding: 6px 16px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    border-radius: 40px;
+    p {
+      width: fit-content;
+      overflow: visible;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      height: 26px;
+    }
+  }
+}

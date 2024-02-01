@@ -1,0 +1,237 @@
+.selectWrapper {
+  max-width: 210px;
+  margin-top: 16px;
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+.selectContainer {
+  position: relative;
+}
+.open {
+  height: 296px;
+  border-radius: 0px 0px 12px 12px;
+  // transition-duration: 0.5s;
+  transition-timing: ease-in-out;
+}
+.close {
+  transition-duration: 1s;
+  transition-timing: ease-in-out;
+  height: 28px;
+}
+.icon {
+  background: url('../../assets/selectIcon.svg') 0 0 no-repeat;
+  position: absolute;
+  top: 11px;
+  right: 4px;
+  width: 16px;
+  height: 13px;
+}
+.iconRotate {
+  transform: rotate(180deg);
+  top: 7px;
+  transition: all 0.01s;
+  transition-timing: ease-in-out;
+}
+
+.selectTitle {
+  cursor: pointer;
+  color: #ba291c;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  font-family: Kanit, sans-serif;
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+.underline {
+  border-bottom: 2px solid #ba291c;
+  width: 134px;
+  height: 2px;
+  margin-top: 23px;
+  position: absolute;
+  top: 13px;
+  transition-duration: 0.5s;
+}
+.underlineSupport {
+  border-bottom: 2px solid #ba291c;
+  width: 140px;
+  height: 2px;
+  margin-top: 23px;
+  position: absolute;
+  top: 13px;
+  transition-duration: 0.5s;
+}
+.underlineSocial {
+  border-bottom: 2px solid #ba291c;
+  width: 185px;
+  height: 2px;
+  margin-top: 23px;
+  position: absolute;
+  top: 13px;
+  transition-duration: 0.5s;
+}
+
+.selectOptions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  // background-color: #f8f8f8;
+  color: #ba291c;
+  padding-top: 12px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  transition: all 1s;
+  .selectLink,
+  .selectLink:visited {
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #151515;
+  }
+  .selectLinkAdditional,
+  .selectLinkAdditional:visited {
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #151515;
+  }
+}
+.selectRestaurantOptions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fffafa;
+  color: #ba291c;
+  padding-top: 12px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  transition: all 1s;
+  .selectLink,
+  .selectLink:visited {
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #151515;
+  }
+  .selectLinkAdditional,
+  .selectLinkAdditional:visited {
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #151515;
+  }
+}
+.selectLinksPagesOptions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  color: #ba291c;
+  padding-top: 12px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  transition: all 1s;
+  .selectLink,
+  .selectLink:visited {
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #151515;
+  }
+  .selectLinkAdditional,
+  .selectLinkAdditional:visited {
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 12px;
+    color: #151515;
+  }
+}
+.selectLinkAdditional:hover{
+  // background-color: #f0f0f0;
+  text-decoration: underline;
+}
+.selectLink:hover {
+  // background-color: #f0f0f0;
+  text-decoration: underline;
+}
+
+
+
+.menuItem{
+  position: relative;
+  display: inline-block;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  display: none;
+  background-color: inherit;
+  padding: 5px;
+  width:80px;
+}
+
+.menuItem:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownMenu li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+@media (max-width: 860px) {
+  .selectTitle {
+    font-size: 14px;
+    line-height: 21px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  .icon {
+    top: 8px;
+    right: 4px;
+    width: 12px;
+    height: 13px;
+  }
+  .selectWrapper {
+    max-width: 150px;
+    &:not(:last-child) {
+      margin-right: 33px;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .selectTitle {
+    font-size: 12px;
+    line-height: 19px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  .icon {
+    top: 5px;
+    height: 8px;
+  }
+
+  .selectWrapper {
+    max-width: 139px;
+    &:not(:last-child) {
+      margin-right: 0px;
+    }
+  }
+}

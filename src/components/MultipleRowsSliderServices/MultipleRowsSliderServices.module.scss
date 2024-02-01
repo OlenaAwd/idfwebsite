@@ -1,0 +1,36 @@
+.slider {
+  margin: 0 0px;
+  max-width: 1120px;
+}
+
+@media (max-width: 1365px) {
+  .slider {
+    margin: 0 0px;
+    max-width: 850px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .slider {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 860px) {
+  .slider {
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 750px) {
+  .slider {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 520px) {
+  .slider {
+    margin: 0 auto;
+    width: 358px;
+  }
+}

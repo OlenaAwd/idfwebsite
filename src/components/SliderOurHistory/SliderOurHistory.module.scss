@@ -1,0 +1,115 @@
+.sliderContainer {
+  max-width: 1035px;
+}
+.cardHistory {
+  box-shadow: 0px 0px 20px 0px #0000001a;
+  max-width: 270px;
+  height: 394px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  img {
+    width: 100%;
+    height: 196px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+}
+
+.cardYear {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #151515;
+  margin-bottom: 4px;
+}
+
+.cardDescription {
+  max-width: 246px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+}
+.linkContainer {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  margin: 0 auto;
+  color: #151515;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.linkLearnMore {
+  color: #151515;
+}
+.linkLearnMore,
+a:visited {
+  color: #151515;
+}
+
+@media (max-width: 1100px) {
+  .sliderContainer {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .sliderContainer {
+    margin: 0 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 990px) {
+  .sliderContainer {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 860px) {
+  .sliderContainer {
+    max-width: 750px;
+  }
+  .card {
+    max-width: 300px;
+  }
+  .imgContainer {
+    max-width: 300px;
+    img {
+      width: 300px;
+      height: 220px;
+    }
+  }
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .descr {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .linkContainer {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 832px) {
+  .sliderContainer {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}

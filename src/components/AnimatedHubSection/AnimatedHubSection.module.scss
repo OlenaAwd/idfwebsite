@@ -1,0 +1,185 @@
+.participantServicesSection {
+  background-image: url('../../assets/GetsupportParticipantServices.webp');
+  max-width: 1440px;
+  height: 731px;
+  position: relative;
+}
+.appearingImgContainerLeft {
+  max-width: 370px;
+  z-index: 9;
+  position: absolute;
+  opacity: 0;
+  img {
+    width: 370px;
+  }
+}
+.appearingImgContainerRight {
+  max-width: 370px;
+  z-index: 9;
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  img {
+    width: 370px;
+  }
+}
+.visible {
+  opacity: 1;
+  transition-duration: 1.5s;
+}
+.participantsWrapper {
+  max-width: 1160px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+  position: absolute;
+  left: 140px;
+}
+
+.participantTextContainer {
+  max-width: 527px;
+  margin-top: 93px;
+  color: #fff;
+}
+.participantTitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  margin-bottom: 36px;
+}
+.participantText {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  margin-bottom: 36px;
+}
+.participantImgContainer {
+  max-width: 570px;
+  max-height: 536px;
+  margin-left: 63px;
+  margin-top: 98px;
+
+  opacity: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+}
+.visibleImg {
+  opacity: 1;
+  transition-duration: 1.5s;
+}
+
+.findOutBtn {
+  width: 433px;
+  height: 54px;
+  color: #fff;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 20px;
+  &:hover {
+    background-color: #fff;
+  }
+}
+@media (max-width: 1300px) {
+  .participantServicesSection {
+    height: 1265px;
+  }
+  .participantsWrapper {
+    flex-direction: column-reverse;
+    left: 340px;
+    justify-content: center;
+  }
+  .participantImgContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+  }
+  .participantTextContainer {
+    max-width: 565px;
+    margin-top: 50px;
+    margin-bottom: 56px;
+  }
+}
+@media (max-width: 1190px) {
+  .findOutBtn {
+    width: 290px;
+    height: 42px;
+    margin-bottom: 24px;
+
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1130px) {
+  .participantsWrapper {
+    left: 300px;
+  }
+}
+@media (max-width: 1050px) {
+  .participantsWrapper {
+    left: 240px;
+  }
+}
+@media (max-width: 980px) {
+  .participantsWrapper {
+    left: 200px;
+  }
+}
+@media (max-width: 920px) {
+  .participantsWrapper {
+    left: 180px;
+  }
+}
+@media (max-width: 860px) {
+  .participantsWrapper {
+    left: 16px;
+  }
+  .participantImgContainer {
+    margin-right: 16px;
+  }
+  .participantTextContainer {
+    margin-right: 16px;
+  }
+  .participantTitle {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 24px;
+  }
+  .participantText {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
+  .participantServicesSection {
+    height: 990px;
+  }
+}
+@media (max-width: 560px) {
+  .participantServicesSection {
+    height: 950px;
+  }
+}
+@media (max-width: 512px) {
+  .participantServicesSection {
+    height: 890px;
+  }
+}
+@media (max-width: 466px) {
+  .participantServicesSection {
+    height: 850px;
+  }
+}
+@media (max-width: 466px) {
+  .participantServicesSection {
+    height: 800px;
+  }
+}

@@ -1,0 +1,133 @@
+.sliderContainer {
+  max-width: 1080px;
+  overflow: hidden;
+}
+.wrapper {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  max-width: 1080px;
+}
+
+.imgContainer {
+  display: flex;
+  text-align: center;
+  max-width: 403px;
+  max-height: 449px;
+  align-items: center;
+  margin-right: 48px;
+  img {
+    width: 403px;
+    height: 449px;
+  }
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ba291c;
+  margin-bottom: 2px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.subPosition {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #ba291c;
+  margin-bottom: 36px;
+}
+.description {
+  font-weight: 300;
+  color: #151515;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 36px;
+}
+.btnContainer {
+  margin-left: -428px;
+  margin-top: -120px;
+  display: flex;
+  max-width: 80px;
+}
+.descr {
+  max-width: 404px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .name {
+  font-size: 18px;
+  line-height: 19px;
+}
+.subPosition {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.description {
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 15px;
+}
+.imgContainer {
+  margin-right: 30px;
+}
+}
+@media (max-width: 720px) {
+ .imgContainer {
+  display: flex;
+  text-align: center;
+  max-width: 331px;
+  max-height: 370px;
+  img {
+    width: 331px;
+    height: 370px;
+  }
+}
+}
+
+@media (max-width: 650px) {
+ .imgContainer {
+  display: flex;
+  text-align: center;
+  max-width: 235px;
+  max-height: 339px;
+  margin-right: 15px;
+  img {
+    width: 235px;
+    height: 339px;
+  }
+}
+.description {
+  margin-bottom: 15px;
+}
+}
+@media (max-width: 500px) {
+ .imgContainer {
+  max-width: 180px;
+  max-height: 238px;
+  margin-right: 10px;
+  img {
+    width: 180px;
+    height: 238px;
+  }
+}
+
+}
+

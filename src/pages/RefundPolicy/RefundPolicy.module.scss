@@ -1,0 +1,109 @@
+.mainSection {
+  max-width: 1440px;
+  padding: 60px 140px 80px 140px;
+  color: #151515;
+}
+.wrapper {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.textDescription {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Kanit', sans-serif;
+  margin-bottom: 20px;
+  span {
+    margin-left: 15px;
+  }
+  .count {
+    display: flex;
+    margin-left: 30px;
+    .countInside {
+      max-width: 1100px;
+      margin-left: 5px;
+    }
+  }
+  .countLast {
+    display: flex;
+    margin-left: 60px;
+    .countInsideLast {
+      max-width: 1100px;
+      margin-left: 5px;
+    }
+  }
+}
+.paragraph {
+  display: flex;
+  margin-left: 10px;
+  .countInside {
+    max-width: 1100px;
+    margin-left: 5px;
+  }
+  .countInsideAdditional {
+    max-width: 1140px;
+  }
+}
+.list {
+  margin-bottom: 20px;
+  .textDescription {
+    margin-bottom: 0px;
+  }
+}
+.list li {
+  list-style: inside;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Kanit', sans-serif;
+  margin-left: 12px;
+  text-indent: -5px;
+  .email,
+  a:visited {
+    color: #151515;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.listItemUnderline {
+  text-decoration: underline;
+  margin-left: 8px;
+}
+.textDescriptionLast {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Kanit', sans-serif;
+}
+
+@media (max-width: 860px) {
+  .mainSection {
+    max-width: 860px;
+    padding: 30px 0px 60px 0px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .header {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .textDescription {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .textDescriptionLast,
+  .list li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

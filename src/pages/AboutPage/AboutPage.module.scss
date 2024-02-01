@@ -1,0 +1,1618 @@
+.searchSection {
+  padding-top: 0px;
+  padding-bottom: 73px;
+  padding-right: 140px;
+  padding-left: 140px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  background: #f8f8f8;
+  justify-content: left;
+  flex-direction: column;
+  position: relative;
+}
+
+.searchItem,
+.searchItem:visited {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ba291c;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+  letter-spacing: 0.02em;
+  &:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 865px;
+  margin-bottom: 85px;
+}
+.aboutUsHeader {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+}
+.aboutUsDescription {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.ourMissionContainer {
+  display: flex;
+}
+.missionTextContainer {
+  max-width: 472px;
+  margin-right: 118px;
+}
+
+.missionDescription {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.missionImgContainer {
+  max-width: 570px;
+  max-height: 390px;
+
+  img {
+    width: 570px;
+    height: 390px;
+    border-radius: 12px;
+  }
+}
+.waveContainer {
+  overflow: hidden;
+  position: absolute;
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  top: 75px;
+  z-index: 10;
+  img {
+    width: 118px;
+    height: 15px;
+  }
+}
+.doodleContainer {
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  top: 415px;
+  max-width: 120px;
+  z-index: 10;
+  img {
+    width: 100%;
+    height: 120px;
+  }
+}
+.btnLearn {
+  width: 472px;
+  height: 54px;
+  color: #ffffff;
+  border: 1px solid #ba291c;
+  margin-right: 20px;
+  padding: 16px 6px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.btnLearnResponsive {
+  display: none;
+}
+.abilitiesContainer {
+  background-color: #fff;
+  max-width: 1440px;
+  position: relative;
+  padding: 105px 140px 55px 140px;
+}
+.ellipseContainer {
+  position: absolute;
+  right: 0px;
+  bottom: 110px;
+  img {
+    width: 103px;
+    height: 103px;
+  }
+}
+.ellipseContainer2 {
+  position: absolute;
+  right: 0px;
+  bottom: 57px;
+  z-index: 10;
+  img {
+    width: 103px;
+    height: 103px;
+  }
+}
+
+.visionSection {
+  padding: 66px 140px;
+  max-width: 1440px;
+  display: flex;
+  background: #f8f8f8;
+  position: relative;
+  justify-content: left;
+}
+.doodleContainer2 {
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  top: 235px;
+  max-width: 120px;
+  z-index: 10;
+  img {
+    width: 100%;
+    height: 120px;
+  }
+}
+.keyObjSection {
+  padding-top: 57px;
+  padding-bottom: 85px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.keyTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 38px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.cardsContainer {
+  display: flex;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.wrapper {
+  max-width: 275px;
+  box-shadow: 8px 8px 0px 0px #0000000d;
+  border-radius: 16px;
+  border: 1px solid #ede4de;
+  padding: 0 0px 16px 0px;
+}
+.imgObjContainer {
+  max-width: 275px;
+  max-height: 220px;
+  margin-bottom: 16px;
+  img {
+    width: 100%;
+    height: 220px;
+    border-radius: 16px;
+  }
+}
+.objTitle {
+  color: #ba291c;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.objDescription {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  height: 70px;
+  max-width: 246px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.initiatives{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 15px;
+  font-family: "Kanit", sans-serif;
+}
+.span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 16px;
+  margin-left: 16px;
+  li {
+    list-style: disc;
+    margin-left: 25px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.organizationSection {
+  max-width: 1440px;
+  padding-top: 70px;
+  padding-bottom: 66px;
+  padding-right: 140px;
+  padding-left: 140px;
+  display: flex;
+  background: #f8f8f8;
+  justify-content: left;
+  flex-direction: row;
+}
+.organisationHeader {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 11px;
+  letter-spacing: 0.02em;
+}
+.organisationTitle {
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.organisationImgContainer {
+  max-width: 570px;
+  img {
+    width: 100%;
+  }
+}
+.leftSide {
+  max-width: 570px;
+  margin-right: 67px;
+}
+.rightSide {
+  max-width: 700px;
+  justify-content: center;
+  padding-top: 82px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.rightSideText {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 523px;
+}
+.loveImgContainer {
+  max-width: 252px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  img {
+    width: 252px;
+    height: 213px;
+    margin-bottom: 29px;
+  }
+}
+.structureSection {
+  background-color: #fff;
+  max-width: 1440px;
+  padding: 50px 140px;
+}
+.personContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.personImgContainer {
+  max-width: 236px;
+  margin-right: 59px;
+  img {
+    width: 236px;
+    height: 236px;
+  }
+}
+.bioContainer {
+  max-width: 865px;
+}
+.personTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 24px;
+  letter-spacing: 0.02em;
+}
+.personBio {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.companyBio {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.personBioResponsive {
+  display: none;
+}
+.structureWrapper {
+  display: flex;
+}
+.structureServices {
+  max-width: 275px;
+  margin-right: 20px;
+  padding-top: 29px;
+}
+.structureImgContainer {
+  max-width: 865px;
+  max-height: 863px;
+  img {
+    width: 865px;
+    height: 836px;
+  }
+}
+.socialEnterprise {
+  padding: 60px 140px 84px 140px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  justify-content: left;
+}
+.supportedEmploymentContainer {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  max-width: 1160px;
+}
+.supportedServEmploymentContainer {
+  display: flex;
+  align-items: center;
+  max-width: 1160px;
+}
+.employmentTextContainer {
+  max-width: 544px;
+  margin-right: 48px;
+}
+.employmentServTextContainer {
+  max-width: 544px;
+  margin-right: 48px;
+  margin-top: 0px;
+}
+.supportedEmployment {
+  max-width: 542px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  margin-bottom: 36px;
+  color: #ba291c;
+}
+.participantServicesTitle {
+  width: 542px;
+  max-height: 112px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  margin-bottom: 36px;
+  color: #ba291c;
+}
+.diversifiedSection {
+  background-color: #fff;
+  max-width: 1440px;
+  padding: 60px 140px;
+}
+.diversifiedTitle {
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.diversifiedText {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.supportText {
+  max-width: 761px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.diversifiedSliderContainer {
+  max-width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+//remove if back multiple slider
+.diversifiedSliderContainerNew {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cardTextHoverHide {
+  display: none;
+}
+.cardTextHoverShow {
+  width: 265px;
+  height: 190px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  span {
+    max-width: 200px;
+    top: 60px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.sliderCard {
+  max-width: 360px;
+  img {
+    width: 360px;
+    height: 190px;
+  }
+}
+.hubsImgContainer {
+  max-width: 570px;
+  max-height: 490px;
+  img {
+    width: 570px;
+    height: 490px;
+  }
+}
+.diversityHubs {
+  padding: 81px 140px 0px 140px;
+  max-width: 1440px;
+  display: flex;
+  background: #f8f8f8;
+}
+.extraAbilitiesSection {
+  padding: 102px 140px 152px 140px;
+  max-width: 1440px;
+  display: flex;
+  column-gap: 48px;
+  background: #f8f8f8;
+}
+
+.abilitiesImgContainer {
+  max-width: 570px;
+  max-height: 492px;
+  img {
+    width: 570px;
+    height: 492px;
+    border-radius: 12px;
+  }
+}
+.abilitiesTextContainer {
+  max-width: 542px;
+}
+.abilitiesTitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  color: #ba291c;
+}
+.opportunitiesSection {
+  padding: 0px 0px 120px 0px;
+  max-width: 1440px;
+  background: #f8f8f8;
+}
+.opportunitiesTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 52px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.opportunitiesCardsWrapper {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.cardOpportunities {
+  padding-bottom: 16px;
+  max-width: 373px;
+  max-height: 512px;
+  border: 1px solid #ede4de;
+  border-radius: 16px;
+}
+.cardImgOpportunities {
+  max-width: 373px;
+  max-height: 220px;
+  margin-bottom: 16px;
+  img {
+    width: 100%;
+    height: 220px;
+    border-radius: 16px;
+  }
+}
+.opportunitiesBody {
+  max-width: 333px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 180px;
+}
+.cardOpportunitiesTitle {
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+.cardOpportunitiesText {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.cardOpportunitiesText2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.learnOpportunities {
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.wrapperCard {
+  position: relative;
+  img {
+    width: 265px;
+    height: 190px;
+    border-radius: 8px;
+  }
+}
+.wrapperCardFirst {
+  margin-top: 10px;
+  position: relative;
+  max-width: 373px;
+  width: 100%;
+  height: 100%;
+  max-height: 190px;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
+.imgTextContainerFirst {
+  bottom: 10px;
+  background-color: #fff;
+  padding: 6px 16px;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  border-radius: 40px;
+  max-width: 100%;
+  p {
+    width: fit-content;
+    overflow: visible;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    height: 26px;
+  }
+}
+.imgTextContainer {
+  bottom: 10px;
+  background-color: #fff;
+  padding: 6px 16px;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  border-radius: 40px;
+  max-width: 100%;
+  p {
+    width: fit-content;
+    overflow: visible;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    height: 26px;
+  }
+}
+.sliderCardServices:hover {
+  transform: scale(1);
+  // cursor: pointer;
+}
+
+.cardTextHoverHide {
+  display: none;
+}
+.cardTextHoverShow {
+  width: 265px;
+  height: 190px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  span {
+    max-width: 200px;
+    top: 60px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+  }
+}
+.cardTextHoverShowFirst {
+  max-width: 373px;
+  width: 100%;
+  height: 196px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.952);
+
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+
+  span {
+    align-items: center;
+    display: flex;
+    max-width: 450px;
+    padding: 5px 10px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+  }
+}
+.storiesImpact {
+  max-width: 1440px;
+  padding: 80px 140px 75px 140px;
+  background-color: #f8f8f8;
+}
+.getSupportHeaderSecond {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: left;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+.getSupportHeaderAdditional {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+.getSupportText {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.getSubSupportText {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 72px;
+}
+.supportedCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 61px;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ourSection {
+  max-width: 1440px;
+  padding: 80px 16px;
+  background: #fff;
+}
+.ourContainer {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1160px;
+}
+.ourLeftContainer {
+  width: 570px;
+  height: 466px;
+  background-image: url('../../assets/ourPeople.webp');
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.ourRightContainer {
+  width: 570px;
+  height: 466px;
+  background-image: url('../../assets/ourHistory.webp');
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.modalCont {
+  width: 283px;
+  height: 86px;
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin-top: 360px;
+  margin-left: 20px;
+}
+.peopleText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+.peopleDescr {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.textContainer {
+  max-width: 523px;
+  margin-left: 65px;
+}
+.textTitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  margin-bottom: 36px;
+  color: #151515;
+}
+.text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+.cardsContainerSlider {
+  display: none;
+}
+.opportunitiesCardsWrapperSlider {
+  display: none;
+}
+@media (max-width: 1400px) {
+  .diversifiedSliderContainerNew {
+    max-width: 800px;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cardTextHoverShowFirst {
+    max-width: 373px;
+    width: 100%;
+    height: 196px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.952);
+
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    span {
+      align-items: center;
+      display: flex;
+      max-width: 450px;
+      padding: 2px 2px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: black;
+    }
+  }
+  .opportunitiesCardsWrapper {
+    display: none;
+  }
+  .opportunitiesCardsWrapperSlider {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    max-width: 1380px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .textContainer {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .ourMissionContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .missionTextContainer {
+    max-width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .btnLearn {
+    display: none;
+  }
+  .btnLearnResponsive {
+    width: 472px;
+    height: 54px;
+    color: #ffffff;
+    border: 1px solid #ba291c;
+    margin-right: 20px;
+    padding: 16px 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+  }
+  .missionDescription {
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 20px;
+  }
+  .keyObjContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .keyTitle {
+    text-align: left;
+  }
+  .organizationSection {
+    flex-direction: column;
+  }
+  .leftSide {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .rightSide {
+    max-width: 570px;
+    justify-content: center;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .personBioResponsive {
+    display: flex;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .personBio {
+    display: none;
+  }
+  .structureWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .structureServices {
+    max-width: 1100px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+  }
+  .structureImgContainer {
+    max-width: 865px;
+    max-height: 863px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .personContainer {
+    justify-content: left;
+  }
+  .supportedEmploymentContainer {
+    flex-direction: column;
+    margin-top: 40px;
+    column-gap: 48px;
+    justify-content: center;
+    align-items: center;
+    max-width: 560px;
+  }
+  .supportedServEmploymentContainer {
+    flex-direction: column;
+    column-gap: 48px;
+    justify-content: center;
+    align-items: center;
+    max-width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .extraAbilitiesSection {
+    flex-direction: column-reverse;
+  }
+
+  .abilitiesTextContainer {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .abilitiesImgContainer {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    img {
+      width: 570px;
+      height: 492px;
+      border-radius: 12px;
+    }
+  }
+  .aboutUsContainer {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .supportedCardContainer {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+    max-width: 800px;
+  }
+  .doodleContainer {
+    top: 910px;
+  }
+  .doodleContainer2 {
+    top: 670px;
+  }
+  .employmentServTextContainer {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+  }
+  .cardsContainer {
+    display: none;
+  }
+  .cardsContainerSlider {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 15px;
+  }
+  .keyObjSection {
+    max-width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .keyObjContainer {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  // .opportunitiesCardsWrapper {
+  //   max-width: 400px;
+  //   flex-direction: column;
+  //   row-gap: 20px;
+  // }
+  .ourContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+  }
+  .ourLeftContainer {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 960px) {
+  .opportunitiesCardsWrapperSlider {
+    display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .textContainer {
+    max-width: 523px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+  .text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .textTitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+  .abilitiesContainer,
+  .diversityHubs,
+  .opportunitiesSection,
+  .storiesImpact,
+  .organizationSection,
+  .ourSection,
+  .extraAbilitiesSection {
+    padding: 50px 16px;
+  }
+  .visionSection {
+    padding: 50px 16px;
+    max-width: 100%;
+  }
+  .diversifiedSection {
+    padding: 30px 16px 50px 16px;
+  }
+  .searchSection {
+    padding-top: 19px;
+    padding-bottom: 30px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .waveContainer {
+    top: 38px;
+    max-width: 90px;
+    img {
+      width: 90px;
+      height: 14px;
+    }
+  }
+  .doodleContainer {
+    max-width: 62px;
+    top: 526px;
+    left: 0px;
+    img {
+      width: 62px;
+      height: 62px;
+    }
+  }
+  .ellipseContainer {
+    top: 66px;
+    max-width: 56px;
+    img {
+      width: 56px;
+      height: 57px;
+    }
+  }
+  .ellipseContainer2 {
+    top: 95px;
+    max-width: 56px;
+    img {
+      width: 56px;
+      height: 57px;
+    }
+  }
+
+  .btnLearnResponsive {
+    width: 358px;
+    height: 42px;
+    margin-left: 20px;
+  }
+
+  .getSupportHeaderSecond,
+  .getSupportHeaderAdditional {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .aboutUsHeader,
+  .diversifiedTitle {
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .aboutUsDescription,
+  .personBioResponsive,
+  .companyBio {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+  }
+  .diversifiedText {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .getSupportText {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  .searchItem {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .keyObjSection {
+    padding: 50px 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 760px;
+  }
+  .keyObjContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+    justify-content: left;
+  }
+  .keyTitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .objTitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .objDescription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .span {
+    font-size: 14px;
+    line-height: 21px;
+    li {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  .organisationHeader {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+  }
+  .organisationTitle {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .rightSideText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .structureSection,
+  .socialEnterprise {
+    padding: 50px 16px;
+  }
+  .personTitle {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 12px;
+  }
+  .personImgContainer {
+    max-width: 171px;
+    margin-right: 16px;
+    img {
+      width: 171px;
+      height: 171px;
+    }
+  }
+  .supportedEmployment {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+  }
+
+  .participantServicesTitle {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+    letter-spacing: 0.02em;
+  }
+
+  .aboutUsContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .ourMissionContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+    max-width: 560px;
+  }
+  .leftSide {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .rightSide {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+  }
+  .supportedEmploymentContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 8px;
+  }
+  .supportedServEmploymentContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 8px;
+    max-width: 100%;
+  }
+  .hubsImgContainer {
+    max-width: 358px;
+    max-height: 308px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .missionImgContainer {
+    max-width: 358px;
+    max-height: 244px;
+    img {
+      border-radius: 12px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .opportunitiesTitle {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 41px;
+    max-width: 560px;
+  }
+  .getSubSupportText {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+  }
+  .ourContainer {
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 370px;
+  }
+  .ourLeftContainer,
+  .ourRightContainer {
+    width: 358px;
+    height: 293px;
+    background-size: contain;
+  }
+  .modalCont {
+    width: 253px;
+    height: 70px;
+    background-color: #fff;
+    margin-top: 213px;
+    margin-left: 20px;
+  }
+  .peopleText {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .peopleDescr {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .doodleContainer2 {
+    top: 465px;
+    left: 0px;
+    img {
+      width: 62px;
+      height: 62px;
+    }
+  }
+  .abilitiesTextContainer {
+    max-width: 544px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .abilitiesTitle {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+    text-align: left;
+  }
+  .cardOpportunities {
+    padding-bottom: 10px;
+    max-width: 300px;
+    max-height: 460px;
+  }
+
+  .cardOpportunitiesTitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+  .cardOpportunitiesText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .cardOpportunitiesText2 {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+  }
+  .learnOpportunities {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .opportunitiesBody {
+    max-width: 260px;
+    height: 147px;
+  }
+
+  .abilitiesImgContainer {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 358px;
+    max-height: 310px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  // .opportunitiesCardsWrapper {
+  //   margin-right: 0;
+  //   margin-left: 0;
+  // }
+  .supportText {
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  // .diversifiedSliderContainerNew {
+  //   max-width: 400px;
+  //   margin-right: auto;
+  //   margin-left: auto;
+  // }
+  // .wrapperCardFirst {
+  //   margin-top: 10px;
+  //   position: relative;
+  //   max-width: 171px;
+  //   max-height: 171px;
+  //   width: 100%;
+  //   height: 100%;
+  //   max-height: 190px;
+  //   img {
+  //     width: 171px;
+  //     height: 171px;
+  //     border-radius: 8px;
+  //   }
+  // }
+  // .imgTextContainerFirst {
+  //   bottom: 20px;
+  //   background-color: #fff;
+  //   padding: 0px 5px;
+  //   left: 50%;
+  //   transform: translate(-50%);
+  //   position: absolute;
+  //   border-radius: 40px;
+  //   max-width: 100%;
+  //   p {
+  //     padding-top: 2px;
+  //     width: fit-content;
+  //     overflow: visible;
+  //     font-weight: 500;
+  //     font-size: 12px;
+  //     line-height: 21px;
+  //     height: 24px;
+  //   }
+  // }
+  // .cardTextHoverShowFirst {
+  //   max-width: 171px;
+  //   width: 100%;
+  //   height: 196px;
+  //   position: absolute;
+  //   top: 0cm;
+
+  //   display: flex;
+  //   align-items: center;
+
+  //   span {
+  //     max-width: 171px;
+  //     padding: 3px;
+  //     font-weight: 300;
+  //     font-size: 10px;
+  //     line-height: 13px;
+  //   }
+  // }
+  .diversifiedSliderContainerNew {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .sliderCard {
+    img {
+      width: 171px;
+      height: 171px;
+    }
+  }
+  .wrapperCard {
+    max-width: 171px;
+    position: relative;
+    img {
+      width: 171px;
+      height: 171px;
+    }
+  }
+  .cardTextHoverShow {
+    width: 171px;
+    height: 171px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    span {
+      max-width: 171px;
+      top: 35px;
+      left: 5px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  .imgTextContainer {
+    bottom: 10px;
+    background-color: #fff;
+    padding: 6px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 50px;
+    p {
+      width: fit-content;
+      min-width: fit-content;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      overflow: visible;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 14px;
+      height: 18px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .employmentServTextContainer {
+    max-width: 430px;
+  }
+}
+@media (max-width: 520px) {
+  .missionTextContainer {
+    max-width: 358px;
+  }
+
+  .ourMissionContainer {
+    max-width: 360px;
+  }
+  .visionSection {
+    justify-content: left;
+  }
+
+  .searchItem {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  .supportedEmploymentContainer,
+  .supportedServEmploymentContainer,
+  .sectionBtnWrapper {
+    max-width: 358px;
+  }
+
+  .doodleContainer {
+    top: 567px;
+  }
+  .btnLearnResponsive {
+    width: 358px;
+    height: 42px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .doodleContainer {
+    top: 590px;
+  }
+  .supportedEmploymentContainer,
+  .supportedServEmploymentContainer,
+  .employmentServTextContainer {
+    max-width: 358px;
+  }
+  .participantServicesTitle {
+    max-width: 358px;
+  }
+}

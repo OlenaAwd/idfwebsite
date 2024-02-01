@@ -1,0 +1,81 @@
+.sectionContainer {
+  max-width: 1440px;
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.additionalSectionContainer {
+  border-bottom: 1px solid #ba291c;
+}
+.sectionTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  color: #151515;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.sectionDescription {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.cardContainer {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+ .cardSliderContainer{
+  display: none;
+ }
+
+
+@media (max-width: 1160px) {
+   .cardContainer {
+    display: none;
+   }
+   .cardSliderContainer{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px;
+   }
+}
+@media (max-width: 860px) {
+  .sectionContainer {
+    max-width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .sectionTitle {
+
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+  }
+  .sectionDescription {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 32px;
+  }
+}
+
+// @media (max-width: 632px) {
+//   .cardContainer {
+//     max-width: 380px;
+//     display: flex;
+//     margin-right: 0;
+//     margin-left: 0;
+//     flex-direction: column;
+//     gap: 15px;
+//   }
+// }

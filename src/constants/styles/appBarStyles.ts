@@ -1,0 +1,35 @@
+export const appBarStyles = {
+    width: "100%",
+    maxWidth: "1440px",
+    height: "80px",
+    // height: '130px',
+    left: 0,
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: "10px 0px",
+    fontFamily: "Kanit, sans-serif",
+    background: "#FFFAFA",
+    boxShadow: "none",
+    display: "flex",
+    marginRight: "auto",
+    marginLeft: "auto",
+    position: "relative",
+};
+
+export const appBarServicesStyles = {
+    width: "100%",
+    maxWidth: "1440px",
+    height: "80px",
+    left: 0,
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: "10px 0px",
+    fontFamily: "Kanit, sans-serif",
+    background: "#F8f8f8",
+    boxShadow: "none",
+    display: "flex",
+    marginRight: "auto",
+    marginLeft: "auto",
+    position: "relative",
+
+};

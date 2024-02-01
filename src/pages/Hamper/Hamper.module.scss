@@ -1,0 +1,1409 @@
+main {
+    overflow: hidden;
+  }
+  
+  .customersMainSection {
+    max-width: 1440px;
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 89px 140px 53px 140px;
+  }
+  
+  .customersContainer {
+    max-width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .waveContainer {
+    overflow: hidden;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    z-index: 10;
+    img {
+      width: 118px;
+      height: 15px;
+    }
+  }
+  .doodleContainer {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    max-width: 120px;
+    z-index: 10;
+    img {
+      width: 100%;
+      height: 120px;
+    }
+  }
+  
+  .customerTextContainer {
+    max-width: 629px;
+    margin-right: 42px;
+  }
+  .customerHeader {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    max-width: 650px;
+    letter-spacing: 0.02em;
+    justify-content: start;
+  }
+  .customerDescription {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .imgContainer {
+    max-width: 489px;
+    max-height: 616px;
+    img {
+      width: 100%;
+      height: 616px;
+      border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -ms-border-radius: 12px;
+      -o-border-radius: 12px;
+}
+  }
+  .btnContainer {
+    display: flex;
+  }
+  .btnContainerResponsive {
+    display: none;
+  }
+  
+  .btnRequestDemo {
+    width: 219px;
+    height: 54px;
+    color: #ffffff;
+    border: 1px solid #ba291c;
+    margin-right: 24px;
+    padding: 12px 24px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  
+  .btnModalBuy {
+    width: 219px;
+    height: 54px;
+    color: #ba291c;
+    border: 1px solid #ba291c;
+    padding: 12px 24px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    background-color: #f8f8f8;
+  
+    &:visited {
+      color: #ba291c;
+    }
+    &:hover {
+      color: #ffffff;
+      background: #ba291c;
+    }
+  }
+  .phoneLink, .phoneLink:visited{
+    color: #ffffff;
+    background-color:#ba291c;
+    border:1px solid #ba291c;
+    width: 224px;
+    height: 54px;
+    border-radius:40px;
+    padding: 12px 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 30px;
+    &:hover{
+      color:#ba291c;
+      background:#fffafa;
+      text-decoration: none;
+    }
+  }
+  .emailUsBtn {
+    background-color: #fffafa;
+    width: 219px;
+    height: 54px;
+    color: #ba291c;
+    border: 1px solid #ba291c;
+    padding: 12px 24px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 30px;
+  
+    &:visited {
+      color: #ba291c;
+    }
+    &:hover {
+      color: #ffffff;
+      background: #ba291c;
+      text-decoration: none;
+    }
+  }
+  .growSection {
+    position: relative;
+    background: #fff;
+    max-width: 1440px;
+    padding-bottom: 119px;
+  }
+  .growRestContainer {
+    margin-top: 40px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    padding-bottom: 40px;
+  }
+  .benefitsContainer {
+    margin-top: 40px;
+    border: 1px dashed #ffffff;
+    max-width: 460px;
+    img {
+      width: 100%;
+    }
+  }
+  .growRestTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    position: absolute;
+    left: 116px;
+    top: 60px;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+  }
+  .growRestText{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    left: 116px;
+    top:130px;
+  }
+  .growRestTitleAdditional {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    max-width: 723px;
+    letter-spacing: 0.02em;
+    margin-left: 116px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 120px;
+  }
+  .whyMatter {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    background: #ffffff;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ellipseContainer {
+    position: absolute;
+    right: 0px;
+    top: 480px;
+    img {
+      width: 103px;
+      height: 103px;
+    }
+  }
+  .ellipseContainer2 {
+    position: absolute;
+    right: 0px;
+    top: 535px;
+    z-index: 10;
+    img {
+      width: 103px;
+      height: 103px;
+    }
+  }
+  .oneStepSection {
+    max-width: 1440px;
+    position: relative;
+    background-color: #fffafa;
+    padding: 60px 140px 89px 140px;
+  }
+  .oneStepTitleContainer {
+    max-width: 914px;
+    margin-bottom: 70px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .oneStepTitle {
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+  }
+  .oneStepSubTitle {
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #ba291c;
+  }
+  .oneStepDescription {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+  }
+  .oneStepContentContainer {
+    max-width: 1160px;
+    display: flex;
+  }
+  .oneStepTextContainer {
+    max-width: 472px;
+  }
+  .oneStepImgContainer {
+    max-width: 569px;
+    max-height: 534px;
+    margin-left: 119px;
+    img {
+      width: 100%;
+      height: 534px;
+    }
+  }
+  .textItem {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+  .textItemTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ba291c;
+    margin-bottom: 12px;
+  }
+  .textItemText {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .ellipseContainerAdv {
+    position: absolute;
+    right: -33px;
+    top: 888px;
+    z-index: 10;
+    img {
+      width: 136px;
+      height: 134px;
+    }
+  }
+
+  .investmentsSection {
+    padding-bottom: 44px;
+    padding: 60px 140px;
+    position: relative;
+    max-width: 1440px;
+    background: #fffafa;
+  }
+  .headerContainer {
+    max-width: 895px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  
+  .investmentTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .investmentSubTitle {
+    color: #ba291c;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+  }
+  .investmentText {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .contentWrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 119px;
+    justify-content: space-between;
+    max-width: 1160px;
+    align-items: center;
+  }
+  .advantagesContainer {
+    max-width: 472px;
+  }
+  
+  .text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .imgAdvantagesContainer {
+    max-width: 569px;
+    min-width: 420px;
+    max-height: 534px;
+    img {
+      width: 100%;
+      height: 534px;
+    }
+  }
+  
+  .advantagesItem {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+  .advantagesTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ba291c;
+    margin-bottom: 12px;
+    max-width: 347px;
+  }
+  .diversifiedSection {
+    background-color: #f8f8f8;
+    max-width: 1440px;
+    padding: 60px 140px;
+  }
+.diversifiedTitle {
+    color: #ba291c;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  .diversifiedText {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .supportText {
+    max-width: 761px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .diversifiedSliderContainer {
+    max-width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+  //remove if back multiple slider
+  .diversifiedSliderContainerNew {
+    max-width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .cardTextHoverHide {
+    display: none;
+  }
+  .cardTextHoverShow {
+    width: 265px;
+    height: 190px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    span {
+      max-width: 200px;
+      top: 60px;
+      left: 30px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  
+  .sliderCard {
+    max-width: 360px;
+    img {
+      width: 360px;
+      height: 190px;
+    }
+  }
+  .wrapperCard {
+    position: relative;
+    img {
+      width: 265px;
+      height: 190px;
+      border-radius: 8px;
+    }
+  }
+  .wrapperCardFirst {
+    margin-top: 10px;
+    position: relative;
+    max-width: 373px;
+    width: 100%;
+    height: 100%;
+    max-height: 190px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+    }
+  }
+  .imgTextContainerFirst {
+    bottom: 10px;
+    background-color: #fff;
+    padding: 6px 16px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    border-radius: 40px;
+    max-width: 100%;
+    p {
+      width: fit-content;
+      overflow: visible;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      height: 26px;
+    }
+  }
+  .imgTextContainer {
+    bottom: 10px;
+    background-color: #fff;
+    padding: 6px 16px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    border-radius: 40px;
+    max-width: 100%;
+    p {
+      width: fit-content;
+      overflow: visible;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      height: 26px;
+    }
+  }
+  .sliderCardServices:hover {
+    transform: scale(1);
+    // cursor: pointer;
+  }
+  
+  .cardTextHoverHide {
+    display: none;
+  }
+  .cardTextHoverShow {
+    width: 265px;
+    height: 190px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+  
+    span {
+      max-width: 200px;
+      top: 60px;
+      left: 30px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  .cardTextHoverShowFirst {
+    max-width: 373px;
+    width: 100%;
+    height: 196px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.952);
+  
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  
+    span {
+      align-items: center;
+      display: flex;
+      max-width: 450px;
+      padding: 5px 10px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: black;
+    }
+  }
+  .stepsSection {
+    position: relative;
+    background: #fff;
+    max-width: 1440px;
+    padding-bottom: 75px;
+    padding-top: 1px;
+  }
+  
+  .stepsContainer {
+    margin-top: 15px;
+    border: 1px dashed #ffffff;
+    background-color: #fff;
+    max-width: 460px;
+    margin-bottom: 40px;
+    img {
+      width: 100%;
+    }
+  }
+  .customCard {
+    padding-bottom: 20px;
+  }
+
+  
+  .stepsCommon {
+    display: flex;
+  }
+  .stepsCommonLast {
+    display: flex;
+  }
+  .stepsTextWrapper {
+    width: 340px;
+    margin-left: 150px;
+    margin-right: 128px;
+    margin-bottom: 114px;
+  }
+  
+  .stepsTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    width: 320px;
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+  }
+  .stepsText {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 335px;
+    margin-bottom: 16px;
+  }
+  .arrowContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-bottom: 28px;
+    img {
+      cursor: pointer;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .stepsSlider {
+    max-height: 260px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ellipseCont {
+    position: absolute;
+    left: 0px;
+    top: 370px;
+    img {
+      width: 103px;
+      height: 103px;
+    }
+  }
+  .ellipseCont2 {
+    position: absolute;
+    left: 0px;
+    top: 422px;
+    img {
+      width: 103px;
+      height: 103px;
+    }
+  }
+  .aboutSection {
+    max-width: 1440px;
+    padding: 60px 140px;
+    background-color: #fffafa;
+    position: relative;
+    z-index: 10;
+  }
+  .doodleCont {
+    position: absolute;
+    left: 0px;
+    top: 362px;
+    max-width: 120px;
+    z-index: 10;
+    img {
+      width: 100%;
+      height: 120px;
+    }
+  }
+  
+  .talkUsContainer {
+    margin-top: 60px;
+    max-width: 565px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+  }
+  .talkUsTitle {
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+  }
+  .talkUsText {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .btnWrapper {
+    max-width: 472px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 1400px) {
+    .diversifiedSliderContainerNew {
+      max-width: 800px;
+      gap: 16px;
+      grid-template-columns: 1fr 1fr;
+    }
+    .cardTextHoverShowFirst {
+      max-width: 373px;
+      width: 100%;
+      height: 196px;
+      position: absolute;
+      top: 4px;
+      left: 0px;
+      background-color: rgba(255, 255, 255, 0.952);
+  
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+  
+      span {
+        align-items: center;
+        display: flex;
+        max-width: 450px;
+        padding: 2px 2px;
+        position: absolute;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: black;
+      }
+    }
+    .opportunitiesCardsWrapper {
+      display: none;
+    }
+    .opportunitiesCardsWrapperSlider {
+      display: flex;
+      margin-right: 100px;
+      margin-left: 100px;
+      max-width: 1380px;
+    }
+  }
+  @media (max-width: 1380px) {
+    .stepsTextWrapper {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 24px;
+      margin-top: 22px;
+    }
+    .stepsCommon {
+      display: flex;
+      flex-direction: column;
+      padding-right: 16px;
+      padding-left: 16px;
+      max-width: 100%;
+    }
+    .stepsTitle {
+      font-size: 24px;
+      line-height: 36px;
+      max-width: 100%;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    .stepsText {
+      font-size: 14px;
+      line-height: 20px;
+      max-width: 340px;
+      margin-bottom: 16px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+    .stepsSlider {
+      max-height: 260px;
+      max-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .setUpTimeText {
+      overflow: hidden;
+      font-size: 12px;
+      line-height: 17px;
+      position: relative;
+      left: 0px;
+      bottom: -10px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  @media (max-width: 1300px) {
+    .customersContainer {
+      flex-direction: column;
+    }
+    .customerTextContainer {
+      max-width: 100%;
+    }
+  
+    .btnContainer {
+      display: none;
+    }
+    .btnContainerResponsive {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      row-gap: 20px;
+    }
+    .customerTextContainer {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .btnRequestDemo,
+    .emailUsBtn, .phoneLink {
+      width: 358px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 42px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .btnModalBuy {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 358px;
+      height: 42px;
+    //   overflow: auto;
+    }
+    .doodleContainer {
+      top: 925px;
+    }
+    .growRestContainer {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 900px;
+      margin-bottom: 40px;
+    }
+    .growRestTitle {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 54px;
+      letter-spacing: 0.02em;
+      left: 175px;
+    }
+    .growRestText{
+        left: 175px;
+      }
+    .cardsContainer {
+      display: flex;
+      flex-direction: column;
+      column-gap: 24px;
+      row-gap: 24px;
+      background: #ffffff;
+      max-width: 900px;
+    }
+    .oneStepContentContainer {
+      max-width: 700px;
+      flex-direction: column-reverse;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .oneStepTextContainer {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .oneStepImgContainer {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 40px;
+    }
+    .ellipseContainerAdv {
+      top: 1465px;
+    }
+    .aboutWrapper {
+      flex-direction: column;
+      column-gap: 80px;
+      row-gap: 24px;
+      max-width: 900px;
+    }
+    .logoContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0px;
+      flex-wrap: wrap;
+      max-width: 480px;
+      column-gap: 60px;
+      margin-right: auto;
+      margin-left: auto;
+      img {
+        width: 149px;
+        height: 109px;
+      }
+    }
+    // .stepsCommon {
+    //   display: flex;
+    //   flex-direction: column;
+    //   margin-right: auto;
+    //   margin-left: auto;
+    //   max-width: 900px;
+    // }
+    // .stepsCommonLast {
+    //   display: flex;
+    //   flex-direction: column;
+    //   margin-right: auto;
+    //   margin-left: auto;
+    //   max-width: 900px;
+    //   margin-bottom: -150px;
+    // }
+    // .stepsTextWrapper {
+    //   width: 500px;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    //   margin-bottom: 24px;
+    // }
+    // .stepsTitle {
+    //   width: 500px;
+    //   text-align: center;
+    //   margin-bottom: 8px;
+    //   margin-right: auto;
+    //   margin-left: auto;
+    // }
+    // .stepsText {
+    //   max-width: 340px;
+    //   margin-bottom: 0px;
+    //   text-align: center;
+    //   margin-right: auto;
+    //   margin-left: auto;
+    // }
+    // .setUpTimeText {
+    //   display: none;
+    // }
+    // .setUpTimeTextResponsive {
+    //   display: flex;
+    //   font-weight: 300;
+    //   font-size: 12px;
+    //   line-height: 17px;
+    //   margin-right: auto;
+    //   margin-left: auto;
+    //   margin-top: 24px;
+    // }
+    .ellipseCont {
+      position: absolute;
+      left: -18px;
+      top: 515px;
+      img {
+        width: 103px;
+        height: 103px;
+      }
+    }
+    .ellipseCont2 {
+      position: absolute;
+      left: -18px;
+      top: 460px;
+      img {
+        width: 103px;
+        height: 103px;
+      }
+    }
+  }
+  @media (max-width: 860px) {
+    .customersMainSection {
+      max-width: 100%;
+      padding: 30px 16px;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    .customerHeader {
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .customerDescription {
+      font-size: 14px;
+      line-height: 21px;
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+    .imgContainer {
+      max-width: 358px;
+      max-height: 244px;
+      img {
+        width: 358px;
+        height: 244px;
+      }
+    }
+    .btnContainerResponsive {
+      max-width: 358px;
+      padding-top: 20px;
+    }
+    .btnRequestDemo,
+    .btnModalBuy {
+      font-size: 16px;
+    }
+    .waveContainer {
+      right: 0px;
+      top: 90px;
+      img {
+        width: 93px;
+        height: 14px;
+      }
+    }
+    .doodleContainer {
+      position: absolute;
+      left: -12px;
+      top: 565px;
+      max-width: 120px;
+      z-index: 10;
+      img {
+        width: 62px;
+        height: 62px;
+      }
+    }
+    .growSection {
+      padding-bottom: 100px;
+      padding-right: 16px;
+      padding-left: 16px;
+      padding-bottom: 60px;
+      max-width: 100%;
+    }
+    .growRestContainer {
+      margin-right: 0px;
+      margin-left: 0px;
+      padding-bottom: 0px;
+    }
+    .benefitsContainer {
+      margin-top: 60px;
+      border: 1px dashed #ffffff;
+      max-width: 358px;
+      img {
+        width: 100%;
+      }
+    }
+    .growRestTitle {
+      font-size: 24px;
+      line-height: 34px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      left: 7px;
+      top: 30px;
+    }
+    .growRestText{
+        top:100px;
+        left: 7px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .growRestTitleAdditional {
+      font-size: 24px;
+      line-height: 34px;
+      max-width: 723px;
+      margin-left: 0px;
+      text-align: left;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .ellipseContainer {
+        display: none;
+      overflow: hidden;
+      position: absolute;
+      right: 0px;
+      top: 134px;
+      img {
+        width: 49px;
+        height: 50px;
+      }
+    }
+    .ellipseContainer2 {
+    display: none;
+      overflow: hidden;
+      position: absolute;
+      right: 0px;
+      top: 165px;
+      z-index: 10;
+      img {
+        width: 49px;
+        height: 50px;
+      }
+    }
+    .investmentsSection {
+        padding-bottom: 44px;
+        padding: 40px 16px;
+        max-width: 100%;
+      }
+      .headerContainer {
+        max-width: 895px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+    
+      .investmentTitle,
+      .investmentTitle {
+        font-size: 24px;
+        line-height: 34px;
+      }
+      .investmentSubTitle {
+        font-size: 20px;
+        line-height: 28px;
+      }
+      .investmentText {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .contentWrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 40px;
+        justify-content: space-between;
+        max-width: 1160px;
+      }
+      .imgAdvantagesContainer {
+        max-width: 358px;
+        max-height: 336px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+        img {
+          width: 358px;
+          height: 336px;
+        }
+      }
+      .advantagesContainer {
+        max-width: 358px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    
+      .ellipseContainer {
+        overflow: hidden;
+        position: absolute;
+        right: -20px;
+        top: 102px;
+        img {
+          width: 49px;
+          height: 50px;
+        }
+      }
+    
+      .advantagesItem {
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+      .advantagesTitle {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 8px;
+        max-width: 341px;
+      }
+      .text {
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      .diversifiedSection {
+        padding: 30px 16px 50px 16px;
+      }
+      .diversifiedTitle {
+        margin-bottom: 12px;
+        font-size: 24px;
+        line-height: 34px;
+      }
+      .diversifiedText {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      .diversifiedSliderContainerNew {
+        display: none;
+      }
+
+    .oneStepSection {
+      max-width: 100%;
+      padding: 40px 16px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .oneStepTitle {
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .oneStepSubTitle {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .oneStepDescription {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .oneStepTitleContainer {
+      margin-bottom: 40px;
+    }
+    .oneStepImgContainer {
+      max-width: 358px;
+      max-height: 336px;
+      margin-left: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      img {
+        width: 358px;
+        height: 336px;
+      }
+    }
+    .textItem {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+    .textItemTitle {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 8px;
+    }
+    .textItemText {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .ellipseContainerAdv {
+      overflow: hidden;
+      position: absolute;
+      right: 0px;
+      top: 1016px;
+      z-index: 10;
+      img {
+        width: 98px;
+        height: 97px;
+      }
+    }
+    .aboutSection {
+      max-width: 100%;
+      padding: 40px 16px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .aboutTitle {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 16px;
+      max-width: 358px;
+    }
+    .aboutText {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .aboutImgContainer {
+      max-width: 358px;
+      img {
+        width: 358px;
+        height: 296px;
+        border-radius: 16px;
+      }
+    }
+    .logoContainer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .talkUsTitle {
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 16px;
+    }
+    .talkUsText {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .talkUsContainer {
+      margin-top: 0px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 40px;
+    }
+    .btnWrapper {
+      margin-bottom: 0px;
+      flex-direction: column;
+      row-gap: 20px;
+      max-width: 358px;
+    }
+    .stepsSection {
+      padding-right: 16px;
+      padding-left: 16px;
+      max-width: 100%;
+      padding-bottom: 85px;
+    }
+    .stepsContainer {
+      margin-bottom: 20px;
+      max-width: 252px;
+      img {
+        width: 100%;
+      }
+    }
+    .stepsTitle {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .stepsText {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .ellipseCont {
+      position: absolute;
+      left: -18px;
+      top: 507px;
+      img {
+        width: 49px;
+        height: 49px;
+      }
+    }
+    .ellipseCont2 {
+      position: absolute;
+      left: -18px;
+      top: 485px;
+      img {
+        width: 49px;
+        height: 49px;
+      }
+    }
+    .doodleCont {
+      left: -14px;
+      top: 506px;
+      max-width: 62px;
+  
+      img {
+        width: 62px;
+        height: 62px;
+      }
+    }
+    .stepsSlider {
+      max-height: 260px;
+      max-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  @media (max-width: 542px) {
+    .doodleContainer {
+      top: 600px;
+    }
+    // .stepsTextWrapper,
+    // .stepsTitle {
+    //   width: 360px;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    //   margin-bottom: 24px;
+    // }
+  }
+  @media (max-width: 467px) {
+    .doodleContainer {
+      top: 623px;
+    }
+    .ellipseContainerAdv {
+      top: 1058px;
+    }
+    .growRestContainer {
+      padding-bottom: 20px;
+    }
+  }
+  @media (max-width: 402px) {
+    .waveContainer {
+      right: 0px;
+      top: 70px;
+    }
+    .growRestTitle {
+      left: 0px;
+      width: 360px;
+    }
+    .ellipseContainerAdv {
+      top: 1158px;
+    }
+  }
+  @media (max-width: 399px) {
+    .doodleContainer {
+      top: 655px;
+    }
+    .ellipseContainerAdv {
+      top: 1158px;
+    }
+  }
+  

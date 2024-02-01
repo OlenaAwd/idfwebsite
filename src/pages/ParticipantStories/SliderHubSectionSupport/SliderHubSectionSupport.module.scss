@@ -1,0 +1,112 @@
+.sliderContainer {
+  max-width: 1180px;
+  display: none;
+}
+
+.cardOpportunities {
+  padding-bottom: 16px;
+  max-width: 373px;
+  max-height: 512px;
+  border: 1px solid #ede4de;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+.cardImgOpportunities {
+  max-width: 373px;
+  max-height: 220px;
+  margin-bottom: 16px;
+  img {
+    width: 100%;
+    height: 220px;
+    border-radius: 16px;
+  }
+}
+.opportunitiesBody {
+  max-width: 333px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 180px;
+}
+.cardOpportunitiesTitle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+.cardOpportunitiesText {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.cardOpportunitiesText2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.learnOpportunities {
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+@media (max-width: 1300px) {
+  .sliderContainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1320px) {
+  .sliderContainer {
+    max-width: 900px;
+  }
+}
+@media (max-width: 1050px) {
+  .sliderContainer {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 860px) {
+  .cardOpportunities {
+    padding-bottom: 10px;
+    max-width: 300px;
+    max-height: 460px;
+  }
+
+  .cardOpportunitiesTitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+  }
+  .cardOpportunitiesText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .cardOpportunitiesText2 {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+  }
+  .learnOpportunities {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .opportunitiesBody {
+    max-width: 260px;
+    height: 147px;
+  }
+}

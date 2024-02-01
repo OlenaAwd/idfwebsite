@@ -1,0 +1,145 @@
+.cardContainer {
+  display: flex;
+  max-width: 528px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+    margin-right: 24px;
+    border-radius: 10px;
+    width: 373px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.textContainer {
+  width: 262px;
+}
+
+.cardTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #f8f8f8;
+  font-family: 'Kanit', sans-serif;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.btnAdvocacy {
+  //TODO - RADD WHEN READY
+  display: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #ede4de;
+  font-family: 'Kanit', sans-serif;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 240px;
+}
+.wrapper {
+  display: flex;
+  margin-top: 30px;
+}
+.container {
+  height: 350px;
+  overflow: auto;
+  max-width: 580px;
+}
+.imgContainerModal {
+  max-width: 568px;
+  width: 100%;
+  margin-left: 20px;
+  img {
+    width: 100%;
+  }
+}
+.btn {
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.modalHeader {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+}
+.modalHeaderAdditional {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 20px;
+  color: #ba291c;
+}
+.modalTitle {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.modalTitleSles {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ba291c;
+}
+.modalText {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media (max-width: 1120px) {
+  .wrapper {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    max-width: 600px;
+  }
+  .container {
+    max-width: 590px;
+  }
+  .imgContainer {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 860px) {
+  .cardTitle {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 175px;
+  }
+  .imgContainer {
+    max-width: 171px;
+    max-height: 120px;
+    margin-right: 16px;
+    img {
+      width: 171px;
+      height: 120px;
+    }
+  }
+  .cardContainer {
+    max-width: 400px;
+  }
+}

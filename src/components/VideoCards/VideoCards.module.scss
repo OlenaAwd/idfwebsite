@@ -1,0 +1,21 @@
+.cardWrapper {
+  width: 360px;
+  height: 450px;
+  border-radius: 16px;
+  border: 1px solid #ede4de;
+  box-shadow: 8px 8px 0px 0px #0000000d;
+}
+.player {
+  width: 360px;
+  height: 310px;
+}
+
+.cardTitle {
+  margin-top: 16px;
+  margin-left: 20px;
+  color: #ba291c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}

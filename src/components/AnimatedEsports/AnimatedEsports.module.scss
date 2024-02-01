@@ -1,0 +1,357 @@
+.participantServicesSection {
+  background-image: url('../../assets/advocacyBg.webp');
+  background-color: #151515;
+  max-width: 1431px;
+  // height: 1230px;
+  height: 1079px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom: 8px solid #ee3524;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  margin-bottom: -15px;
+  z-index: 11;
+}
+.appearingImgContainerLeft {
+  max-width: 370px;
+  z-index: 9;
+  position: absolute;
+  opacity: 0;
+  img {
+    width: 370px;
+  }
+}
+.appearingImgContainerRight {
+  max-width: 370px;
+  z-index: 9;
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  img {
+    width: 370px;
+  }
+}
+.gamingTeamContainer {
+  max-width: 492px;
+  max-height: 387px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.follow,
+.follow:visited {
+  border: 1px solid #ee3524;
+  background-color: #ee3524;
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+  height: 48px;
+  border-radius: 40px;
+  border: 1px solid #ee3524;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    transition: background-color 1s ease-out;
+    background-color: transparent;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -ms-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+  }
+
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.visible {
+  opacity: 1;
+  transition-duration: 1.5s;
+}
+.participantsWrapper {
+  max-width: 1098px;
+  display: flex;
+  margin-right: 171px;
+  margin-left: 171px;
+  z-index: 10;
+  position: absolute;
+}
+
+.participantTextContainer {
+  max-width: 573px;
+  margin-top: 120px;
+  color: #fff;
+}
+.participantTitle {
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 74px;
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.participantText {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.participantImgContainer {
+  max-width: 492px;
+  max-height: 387px;
+  margin-left: 33px;
+  margin-top: 179px;
+  opacity: 0;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+}
+.visibleImg {
+  opacity: 1;
+  transition-duration: 1.5s;
+}
+
+.btnModalContainer {
+  display: flex;
+  max-width: 573px;
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: left;
+  margin-bottom: 120px;
+}
+
+.btnModalContainerResponsive {
+  display: none;
+}
+.workDifferently {
+  max-width: 1098px;
+  position: absolute;
+  bottom: 110px;
+  display: flex;
+  margin-right: 171px;
+  margin-left: 171px;
+  z-index: 10;
+}
+.advocacyManImgContainer {
+  max-width: 391px;
+  max-height: 266px;
+  margin-right: 64px;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+}
+.advocacyManImgContainerResponsive {
+  display: none;
+}
+.advocacyManTextContainer {
+  max-width: 643px;
+}
+.advocacyManTitle {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+.advocacyManText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #f3f4f6;
+}
+.donateNowBtnEnquire {
+  margin-top: 40px;
+  width: 433px;
+  height: 54px;
+  color: #fff;
+  margin-bottom: 24px;
+  border: 1px solid #ba291c;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  &:hover {
+    background-color: #fff;
+  }
+}
+@media (max-width: 1300px) {
+  .participantServicesSection {
+    height: 1480px;
+  }
+  .participantsWrapper {
+    flex-direction: column;
+    left: 220px;
+    justify-content: left;
+  }
+  .participantImgContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+  .participantTextContainer {
+    max-width: 565px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .participantTitle {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 54px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .btnModalContainer {
+    display: none;
+  }
+  .btnModalContainerResponsive {
+    display: flex;
+    max-width: 573px;
+    row-gap: 12px;
+    column-gap: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: left;
+    margin-bottom: 30px;
+    margin-top: 24px;
+    justify-content: space-evenly;
+  }
+  .workDifferently {
+    max-width: 573;
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 171px;
+    margin-left: 171px;
+    z-index: 10;
+    left: 220px;
+  }
+
+  .advocacyManImgContainer {
+    display: none;
+  }
+  .advocacyManImgContainerResponsive {
+    display: flex;
+    max-width: 391px;
+    max-height: 386px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 16px;
+    }
+  }
+}
+@media (max-width: 1220px) {
+  .participantServicesSection {
+    height: 1500px;
+  }
+}
+@media (max-width: 1130px) {
+  .participantsWrapper,
+  .workDifferently {
+    left: 130px;
+  }
+}
+@media (max-width: 1000px) {
+  .participantServicesSection {
+    height: 1550px;
+  }
+}
+@media (max-width: 955px) {
+  .participantServicesSection {
+    height: 1530px;
+  }
+}
+@media (max-width: 860px) {
+  .participantsWrapper {
+    left: 16px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .participantImgContainer {
+    margin-right: 16px;
+  }
+  .participantTextContainer {
+    margin-right: 16px;
+  }
+  .participantTitle {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 12px;
+  }
+  .participantText {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    font-weight: 300;
+  }
+  .participantImgContainer {
+    margin-left: 0px;
+    opacity: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 16px;
+    }
+  }
+  .visibleImg {
+    opacity: 1;
+    transition-duration: 1.5s;
+  }
+  .btnModalContainerResponsive {
+    display: flex;
+    flex-direction: column;
+    max-width: 358px;
+    row-gap: 16px;
+    column-gap: 16px;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: left;
+  }
+  .follow {
+    width: 358px;
+    height: 42px;
+  }
+
+  .advocacyManTitle {
+    font-size: 24px;
+    line-height: 34px;
+    color: #fff;
+    margin-bottom: 24px;
+  }
+  .advocacyManText {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+  }
+  .participantServicesSection {
+    height: 1270px;
+  }
+  .workDifferently {
+    margin-right: 0;
+    margin-left: 0;
+    left: 16px;
+  }
+  .advocacyManImgContainerResponsive {
+    display: flex;
+    max-width: 385px;
+    margin-right: 16px;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+}
